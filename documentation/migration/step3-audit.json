@@ -1,0 +1,261 @@
+{
+  "step2_gitignore_sha256": "3ce84aae8b459f1c3f24b21aa9f9250e1105607541c80240c8254b93684265d8",
+  "step3_gitignore_sha256": "be011387cdf13d56364bdaa15d6c112cb2a020233874f3db6a9f3e0d193125dc",
+  "preserved_trailing_whitespace": [
+    {
+      "path": "LICENSE",
+      "trailing_whitespace_lines": [
+        20
+      ],
+      "sha256": "b168b7ea33b2ebc4fd4b6af95a6ab1b7ea02caa417da45d46bc52e02d9a67a4e",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/UPSTREAM-README.txt",
+      "trailing_whitespace_lines": [
+        7,
+        9,
+        102
+      ],
+      "sha256": "1d2b942bf5f657b85c07385f90049fa5caf3345cdeed2d49e59ce34dc8625d39",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/allocate.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "d5951a24716489e57f3d86fc34bb053e1985edaca66c39857ce17c1a759c07ee",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/animate.cpp",
+      "trailing_whitespace_lines": [
+        63,
+        200,
+        201,
+        202
+      ],
+      "sha256": "8bbd7716462e42e096d4d3bbbf7101c17c9012d39daa4bace5690f1318a15f22",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/budget.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "97c19e75e1c41d4080e00364dd87d2a90c6e9a99f559e9ef4e6cf4c869135846",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/callback.h",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "7e009f562a479f5d6e94355a6b23829c6051c259ee8614af98c924e7698559b3",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/connect.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "1e8fca4f13db3635a33330d6049620c43f27e6f5640e4250dbf1e91345efcf82",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/data_types.h",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "3746990f8e4bc41913e1e3e810b48229bca7ce58721d9556b7f7bd731506f0d8",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/disasters.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "9da04eae86bb0eb2e59a25df2ed430edc68672e884cfe654e5bb2ec87013acb2",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/evaluate.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "6e90deee504d782afef7aa8da2a9a125638d77655104047d6523bab7cf38631b",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/fileio.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "778f7405c1b3122109edb2adeafab235cd9083785264bc66eefbc4704524b525",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/frontendmessage.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "0db22b51f05ace3e276110c1ac8086561665e23c404fa945acf06b6bb66067de",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/frontendmessage.h",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "02d3f938bdff582c1de42b1e27e542895667e603cda3645a760e4e6a23aee703",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/generate.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "54ff5d09d5425b57c5693aa3eeb362a4c9131b1a8293f03c493e64f79783bce0",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/graph.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "537edd27f178f94bd6fd734f84ad19d57a9d78a9910a963e377a009e3ed115c7",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/initialize.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "a3ec78e661d71e02f57ab2e10534e2ee890721cfaa3a84f050c3c2bac9cf1a32",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/map.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "8e3ed68de68ad412f95814ca9e6469b20a04f0ded9e8f4c3d5bf23a136116255",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/map_type.h",
+      "trailing_whitespace_lines": [
+        63,
+        139
+      ],
+      "sha256": "41753a3f4e23b55bc39bc2bb22f1ae163dde8915805f6f78dbf2e38c585f3012",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/message.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "b38a7644c6174382bd0c47c06d454b2ebd14fb82d4647d31a914fbd45dd284f5",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/micropolis.cpp",
+      "trailing_whitespace_lines": [
+        63,
+        144
+      ],
+      "sha256": "2ec097c567fe55babc923ace0f8cc49a92a0b841cb13970d27332e0b77a24b04",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/micropolis.h",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "b8756f38d41a3b3c278631aac1a39b1b090e68bbd34e8bf1d7064d5d268b30ad",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/position.cpp",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "9069257cad32ef993b32900c37685c864c191aad7cbe36e03e8cf9becebd4424",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/position.h",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "e01a4f961c9f40bf251a92d6af79f157d4e0e567fc7ea4c52d6a5f711c602fa6",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/simulate.cpp",
+      "trailing_whitespace_lines": [
+        140
+      ],
+      "sha256": "089d68ee5ec72038b99973ca7d59fb8566a36dc92ec34699c447e861520b08aa",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/text.h",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "65cc0edcd7d6ccbf2452427c660d557c6f41ea40d8a2dfaa9c56bd1be1fbb2a4",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/tool.cpp",
+      "trailing_whitespace_lines": [
+        888
+      ],
+      "sha256": "7f93853ccd0b59ed1bd03ac75233cac6a4c81916d1db89b62d4c835e34c170cd",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/tool.h",
+      "trailing_whitespace_lines": [
+        63
+      ],
+      "sha256": "11bfa327b9db1b79ffc84faa6b5c2f263a4dcc89783beadaa7b71967e44b8c16",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/utilities.cpp",
+      "trailing_whitespace_lines": [
+        102
+      ],
+      "sha256": "2a96385b3cb65dbe8324d0305f7f87c4040426244caf8e7ea25a8f989652549c",
+      "step2_hash_matches": true
+    },
+    {
+      "path": "packages/micropolis-engine/src/zone.cpp",
+      "trailing_whitespace_lines": [
+        94,
+        195
+      ],
+      "sha256": "76b634a693e54f84b528471b8d0cb97d5a6e27faa2344e1a61b6145a53f09b27",
+      "step2_hash_matches": true
+    }
+  ],
+  "old_fork_tracked_hashes_verified": 5359,
+  "old_fork_git_state_unchanged": true,
+  "unexpected_personal_files_count": 5,
+  "user_approved_original_whitespace": true,
+  "cached_check_exit_code": 2,
+  "cached_check_approved_diagnostics": 34,
+  "staged_files": 250,
+  "ignored_existing_files": 5330,
+  "staged_binary_counts": {
+    "png": 58,
+    "wav": 11,
+    "cty": 9
+  },
+  "secret_scan_findings": 0,
+  "working_files_match_staged_blobs": true
+}

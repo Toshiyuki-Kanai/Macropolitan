@@ -1,0 +1,35 @@
+# Local Xcode / SwiftPM / C++ products and caches
+/build/
+.build/
+DerivedData/
+.DS_Store
+**/xcuserdata/
+*.xcuserstate
+# SwiftPM user state is covered by xcuserdata above; retain shared manifests / resolution.
+*.xcresult/
+*.dSYM/
+*.o
+*.a
+*.d
+*.dylib
+*.log
+*.tmp
+*.swp
+*~
+# Distribution products
+*.app/
+*.xcarchive/
+*.dmg
+# Private signing / authentication material (also inspect all staged content)
+*.p12
+*.pfx
+*.p8
+*.pem
+*.key
+*.cer
+*.crt
+*.mobileprovision
+.env
+.env.*
+.netrc
+.git-credentials

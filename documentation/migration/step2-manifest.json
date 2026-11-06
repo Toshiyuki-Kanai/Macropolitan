@@ -1,0 +1,1740 @@
+{
+  "source_repository": "https://github.com/Toshiyuki-Kanai/micropolis-native-macos",
+  "source_head": "adb7f6be70e310d0750323700f6a67ccaa15e0ba",
+  "source_branch": "main",
+  "source_has_local_signing_changes": true,
+  "source_committed_project_sha256": "f2f810ef10ca6cefd4b0c569d6eaaa345505198fe66fc968d088bf3cfb148804",
+  "copied_count": 243,
+  "copied_source_bytes": 2673563,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 44930,
+      "source_sha256": "b168b7ea33b2ebc4fd4b6af95a6ab1b7ea02caa417da45d46bc52e02d9a67a4e",
+      "destination_sha256": "b168b7ea33b2ebc4fd4b6af95a6ab1b7ea02caa417da45d46bc52e02d9a67a4e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "MicropolisGPLLicenseNotice.md",
+      "bytes": 3365,
+      "source_sha256": "a5f4bd08e68df2224bbea4293258eb889e303badfad4a577bbd640a7a422fac3",
+      "destination_sha256": "a5f4bd08e68df2224bbea4293258eb889e303badfad4a577bbd640a7a422fac3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "MicropolisPublicNameLicense.md",
+      "bytes": 5408,
+      "source_sha256": "33e51a8840ac68939a9ed601ae75c855366deff6f1841f22024173fe82ee30a6",
+      "destination_sha256": "33e51a8840ac68939a9ed601ae75c855366deff6f1841f22024173fe82ee30a6",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/.gitattributes",
+      "bytes": 412,
+      "source_sha256": "9bcb22c56159a6d3c89ee9537f75c73cfcfb79a8935acaa7dde0caffaabc65b9",
+      "destination_sha256": "9bcb22c56159a6d3c89ee9537f75c73cfcfb79a8935acaa7dde0caffaabc65b9",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/.gitignore",
+      "bytes": 26,
+      "source_sha256": "22f18ffcfb03b25add13a16b1d96f79c8cba5bd572ead86aa6b1290baa989adb",
+      "destination_sha256": "22f18ffcfb03b25add13a16b1d96f79c8cba5bd572ead86aa6b1290baa989adb",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/App/Info.plist",
+      "bytes": 954,
+      "source_sha256": "0a755abec0b053dfed63072e165ac400cec71ce5b9576e3e10da7ecfa23934ad",
+      "destination_sha256": "0a755abec0b053dfed63072e165ac400cec71ce5b9576e3e10da7ecfa23934ad",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/App/MicropolisMac.entitlements",
+      "bytes": 366,
+      "source_sha256": "0def50026c573da2c9090737c1e475ea0be36257b3d7d14e77e57e02f38a2ba6",
+      "destination_sha256": "0def50026c573da2c9090737c1e475ea0be36257b3d7d14e77e57e02f38a2ba6",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/App/MicropolisMacApp.swift",
+      "bytes": 7639,
+      "source_sha256": "40796e2e4f18f0aa319e322bac9094fa7d7c319a56dcb746f5d23979423fb3b7",
+      "destination_sha256": "40796e2e4f18f0aa319e322bac9094fa7d7c319a56dcb746f5d23979423fb3b7",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/MicropolisMac.xcodeproj/project.pbxproj",
+      "bytes": 20701,
+      "source_sha256": "5837052bef82ec63a2c6653176f9ed271de20724eacadd1f45375a179e47f41d",
+      "destination_sha256": "87968af10e2bfac8ec5ed80b9fc54e8fc4179f3a870444d157ad5b08551086fe",
+      "change_reason": "Committed HEAD signing settings adopted (3 local personal signing lines omitted); removed 4 icon references and 2 App Icon settings. Bundle ID, Sandbox, entitlements, UI unchanged."
+    },
+    {
+      "path": "apps/micropolis-macos/MicropolisMac.xcodeproj/xcshareddata/xcschemes/MicropolisMac.xcscheme",
+      "bytes": 1880,
+      "source_sha256": "9fe91e183292aa80a7426365fab09ef5593b457b441539310766370526a00aae",
+      "destination_sha256": "9fe91e183292aa80a7426365fab09ef5593b457b441539310766370526a00aae",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Models/AppText.swift",
+      "bytes": 1323,
+      "source_sha256": "5c7769340589708cedb0e40c4d234fd5c994d16b134d9696e25e5688894d405a",
+      "destination_sha256": "5c7769340589708cedb0e40c4d234fd5c994d16b134d9696e25e5688894d405a",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Models/CityFrame.swift",
+      "bytes": 9396,
+      "source_sha256": "38487a0610135915abd3ec0fc74bd5677e4d7b1da0aa9d3979b29ff92263fbeb",
+      "destination_sha256": "38487a0610135915abd3ec0fc74bd5677e4d7b1da0aa9d3979b29ff92263fbeb",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Models/CityModel.swift",
+      "bytes": 16678,
+      "source_sha256": "3121caee851c726ec20d979183a35c7d291b4e0255cf57068728f9d8a0ec28bf",
+      "destination_sha256": "3121caee851c726ec20d979183a35c7d291b4e0255cf57068728f9d8a0ec28bf",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/README.ja.md",
+      "bytes": 27202,
+      "source_sha256": "233098ffbc1af722fca8ef7a3cd8c60ed500f7d1682f04f49cb448b5c34f3243",
+      "destination_sha256": "233098ffbc1af722fca8ef7a3cd8c60ed500f7d1682f04f49cb448b5c34f3243",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Rendering/MapGeometry.swift",
+      "bytes": 4984,
+      "source_sha256": "1f7de65903ed3778e658b51d9c37fad46d8069e8d112eafba7743a18e90cf900",
+      "destination_sha256": "1f7de65903ed3778e658b51d9c37fad46d8069e8d112eafba7743a18e90cf900",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Rendering/MapInputView.swift",
+      "bytes": 3389,
+      "source_sha256": "4eeeaa03a8d73124c485a3147bbe9d2eda7f7fba84783580d6dc8da14d3a7a89",
+      "destination_sha256": "4eeeaa03a8d73124c485a3147bbe9d2eda7f7fba84783580d6dc8da14d3a7a89",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Rendering/TerrainCanvas.swift",
+      "bytes": 5301,
+      "source_sha256": "296c8b7f9bd79607b67fde72ebf12a5bfefb4e73b121a430375456b877624673",
+      "destination_sha256": "296c8b7f9bd79607b67fde72ebf12a5bfefb4e73b121a430375456b877624673",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Rendering/TileAtlas.swift",
+      "bytes": 7766,
+      "source_sha256": "68db0bf6354e13959aa296e82c051ef2db9de5a2cc468ae4f8f106cf25322aaa",
+      "destination_sha256": "68db0bf6354e13959aa296e82c051ef2db9de5a2cc468ae4f8f106cf25322aaa",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Rendering/TilePalette.swift",
+      "bytes": 2133,
+      "source_sha256": "af0c5e94cb515acd7af3f7557e5293e1dc0cb82371200d473baccdba8953dc05",
+      "destination_sha256": "af0c5e94cb515acd7af3f7557e5293e1dc0cb82371200d473baccdba8953dc05",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/Localization/English.json",
+      "bytes": 21253,
+      "source_sha256": "46f5888a76d2fbd2662300405738f9e2fb2050d0b844cea42d3509a8d7beb8c6",
+      "destination_sha256": "46f5888a76d2fbd2662300405738f9e2fb2050d0b844cea42d3509a8d7beb8c6",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/ASSET-NOTICE.ja.md",
+      "bytes": 3080,
+      "source_sha256": "219f98ad8beb160884c38c32efff1a152520b27aa491ad580349b610f9a006b7",
+      "destination_sha256": "219f98ad8beb160884c38c32efff1a152520b27aa491ad580349b610f9a006b7",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/ASSET-NOTICE.ja.md",
+      "bytes": 1708,
+      "source_sha256": "2369d09f77718638de9bd033e1f540fb6fbcb1a0234fa3b93df58cd36f819c4c",
+      "destination_sha256": "2369d09f77718638de9bd033e1f540fb6fbcb1a0234fa3b93df58cd36f819c4c",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/bop.wav",
+      "bytes": 6548,
+      "source_sha256": "27754d2a65d32be8726e1b8340760102a8fa57b34e5f8880da5ed1347fbc4bcf",
+      "destination_sha256": "27754d2a65d32be8726e1b8340760102a8fa57b34e5f8880da5ed1347fbc4bcf",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/build.wav",
+      "bytes": 18780,
+      "source_sha256": "d6a6265db971026131fb3d1f78bb0c1d0367a669618df644c5d52c1df69d95ed",
+      "destination_sha256": "d6a6265db971026131fb3d1f78bb0c1d0367a669618df644c5d52c1df69d95ed",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/explosion-high.wav",
+      "bytes": 70924,
+      "source_sha256": "98bd8a25eaaca00563c1a441c90b26eb5607c5cbeaf09433b2807d28bdb38872",
+      "destination_sha256": "98bd8a25eaaca00563c1a441c90b26eb5607c5cbeaf09433b2807d28bdb38872",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/explosion-low.wav",
+      "bytes": 226900,
+      "source_sha256": "9c4b1c91a7e67b17888218e586e8098d6a9e07452581a4ce5cfe2b98f7736793",
+      "destination_sha256": "9c4b1c91a7e67b17888218e586e8098d6a9e07452581a4ce5cfe2b98f7736793",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/generated.json",
+      "bytes": 8225,
+      "source_sha256": "9436370e8e35530f2fdf001121c12436fdbd7194ac31b67ebfe9cd4c44e1eee3",
+      "destination_sha256": "9436370e8e35530f2fdf001121c12436fdbd7194ac31b67ebfe9cd4c44e1eee3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/heavytraffic.wav",
+      "bytes": 91640,
+      "source_sha256": "1f6d7b29b48ee835e6cccd39f1ba905066a046aeed4d3f29df2ff4fece10d83e",
+      "destination_sha256": "1f6d7b29b48ee835e6cccd39f1ba905066a046aeed4d3f29df2ff4fece10d83e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/honkhonk-hi.wav",
+      "bytes": 5347,
+      "source_sha256": "efca05d8d43f900d65c41430909745f2d03a0b2646d9970a0eb5578137a2b247",
+      "destination_sha256": "efca05d8d43f900d65c41430909745f2d03a0b2646d9970a0eb5578137a2b247",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/honkhonk-high.wav",
+      "bytes": 29200,
+      "source_sha256": "c23e8fe3c298b8d3f1ef7fbbef625de332341502a2bbba34a8b3739edd0d5549",
+      "destination_sha256": "c23e8fe3c298b8d3f1ef7fbbef625de332341502a2bbba34a8b3739edd0d5549",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/honkhonk-low.wav",
+      "bytes": 41954,
+      "source_sha256": "8225ee2b1b687fcd95af2e475e78cd3a71fce8eff8676cf62b47de09a9d7b414",
+      "destination_sha256": "8225ee2b1b687fcd95af2e475e78cd3a71fce8eff8676cf62b47de09a9d7b414",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/honkhonk-med.wav",
+      "bytes": 35334,
+      "source_sha256": "d07dc21b2a21df7f48918f0cc4d6b1dee2288dd1f00d59c28d1e749504aa7fcc",
+      "destination_sha256": "d07dc21b2a21df7f48918f0cc4d6b1dee2288dd1f00d59c28d1e749504aa7fcc",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/monster.wav",
+      "bytes": 32666,
+      "source_sha256": "231efc58749199cf1c7eb7f9ef4ab07a3c3eae6f4e04d89aa261b9b593c16f94",
+      "destination_sha256": "231efc58749199cf1c7eb7f9ef4ab07a3c3eae6f4e04d89aa261b9b593c16f94",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj1-0.png",
+      "bytes": 193,
+      "source_sha256": "d37637662d6fb89fdacdcbe0891833053ea9d2f8f76b52bf2a06f63c0f1fe10d",
+      "destination_sha256": "d37637662d6fb89fdacdcbe0891833053ea9d2f8f76b52bf2a06f63c0f1fe10d",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj1-0.xpm",
+      "bytes": 1345,
+      "source_sha256": "18254332f8f6adf49e90c36c112960438e8335a63842d77fe672ce6a3d6f058f",
+      "destination_sha256": "18254332f8f6adf49e90c36c112960438e8335a63842d77fe672ce6a3d6f058f",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj1-1.png",
+      "bytes": 177,
+      "source_sha256": "3753dc7ffbf414c326e3b556f05bc933e79efe927e22d7571a5101b9a39608db",
+      "destination_sha256": "3753dc7ffbf414c326e3b556f05bc933e79efe927e22d7571a5101b9a39608db",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj1-1.xpm",
+      "bytes": 1345,
+      "source_sha256": "4cb830f710e4d1ecd1c37ea972c1782a4bab98c34bf10784df3f5a35bfa31d16",
+      "destination_sha256": "4cb830f710e4d1ecd1c37ea972c1782a4bab98c34bf10784df3f5a35bfa31d16",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj1-2.png",
+      "bytes": 204,
+      "source_sha256": "1dbb8ac673d0cf39c1d6508ec0289f73586eb179da74057f29d5da1681958079",
+      "destination_sha256": "1dbb8ac673d0cf39c1d6508ec0289f73586eb179da74057f29d5da1681958079",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj1-2.xpm",
+      "bytes": 1345,
+      "source_sha256": "907d7beab8b3e3dd89d6383c9cca800022bca4e9fc19f540c7689974905af1b7",
+      "destination_sha256": "907d7beab8b3e3dd89d6383c9cca800022bca4e9fc19f540c7689974905af1b7",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj1-3.png",
+      "bytes": 199,
+      "source_sha256": "ca48ef3999d959f5bf51f7f2f54c5437d6e37d81c290d9a79638081ba4187634",
+      "destination_sha256": "ca48ef3999d959f5bf51f7f2f54c5437d6e37d81c290d9a79638081ba4187634",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj1-3.xpm",
+      "bytes": 1345,
+      "source_sha256": "ce36f238b40c2ded27e0ecd4b96dc75f433b3c0ba83dcf59eb76b26825b0512b",
+      "destination_sha256": "ce36f238b40c2ded27e0ecd4b96dc75f433b3c0ba83dcf59eb76b26825b0512b",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj1-4.png",
+      "bytes": 83,
+      "source_sha256": "ba04f531df0c7a12124750d521add77c55b16a6432d653c5559c16680dbd9f50",
+      "destination_sha256": "ba04f531df0c7a12124750d521add77c55b16a6432d653c5559c16680dbd9f50",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj1-4.xpm",
+      "bytes": 1219,
+      "source_sha256": "f4da90d6d2545a4f46b5a4c991339b2d8f7b01402097953bc8708063be941ce1",
+      "destination_sha256": "f4da90d6d2545a4f46b5a4c991339b2d8f7b01402097953bc8708063be941ce1",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-0.png",
+      "bytes": 290,
+      "source_sha256": "e410e644be45b1efc32f3c39f4d05035650d1308bc7b7730bc3e566b2592fd82",
+      "destination_sha256": "e410e644be45b1efc32f3c39f4d05035650d1308bc7b7730bc3e566b2592fd82",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-0.xpm",
+      "bytes": 1409,
+      "source_sha256": "fc2777ad9bd683a266c1c8854b2813d399be5ee45f97f75aa5a45f2c37ab4db7",
+      "destination_sha256": "fc2777ad9bd683a266c1c8854b2813d399be5ee45f97f75aa5a45f2c37ab4db7",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-1.png",
+      "bytes": 297,
+      "source_sha256": "b7c33f3b25da8f21ef6c06f903454b1a97b4a11c05331732e2990315eaad12eb",
+      "destination_sha256": "b7c33f3b25da8f21ef6c06f903454b1a97b4a11c05331732e2990315eaad12eb",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-1.xpm",
+      "bytes": 1409,
+      "source_sha256": "eb3cceb0f89c1089320c566f0aaf6815ee7a4baf918984c8d8d6e2246be55196",
+      "destination_sha256": "eb3cceb0f89c1089320c566f0aaf6815ee7a4baf918984c8d8d6e2246be55196",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-2.png",
+      "bytes": 256,
+      "source_sha256": "bb5b6ad15c0cca77ac8d0de36c052f3b48c55071ae4dff278e3c587bbf729c00",
+      "destination_sha256": "bb5b6ad15c0cca77ac8d0de36c052f3b48c55071ae4dff278e3c587bbf729c00",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-2.xpm",
+      "bytes": 1409,
+      "source_sha256": "dffa007ac61be6cd656e59df1764d910180ecf42e2cd495db93d820a32559e80",
+      "destination_sha256": "dffa007ac61be6cd656e59df1764d910180ecf42e2cd495db93d820a32559e80",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-3.png",
+      "bytes": 301,
+      "source_sha256": "6e5671bbc52a20386d5b214252dc2fe124e26046865c753dbe2f0f1ac4f6c99b",
+      "destination_sha256": "6e5671bbc52a20386d5b214252dc2fe124e26046865c753dbe2f0f1ac4f6c99b",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-3.xpm",
+      "bytes": 1409,
+      "source_sha256": "e2b90be5aa4a561357c3dea5e64a11be8d4977c41ca441633c32400bf0253688",
+      "destination_sha256": "e2b90be5aa4a561357c3dea5e64a11be8d4977c41ca441633c32400bf0253688",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-4.png",
+      "bytes": 284,
+      "source_sha256": "3ebc808079c24e0cdbccb788a9909e4efbc8037df54c3ee6f9a5e4925edaa63f",
+      "destination_sha256": "3ebc808079c24e0cdbccb788a9909e4efbc8037df54c3ee6f9a5e4925edaa63f",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-4.xpm",
+      "bytes": 1409,
+      "source_sha256": "b5eae95ffa5be20200f62175db6ed32410aaa77e2c2f7154feca8f9888d7e798",
+      "destination_sha256": "b5eae95ffa5be20200f62175db6ed32410aaa77e2c2f7154feca8f9888d7e798",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-5.png",
+      "bytes": 300,
+      "source_sha256": "4cbbaa8db72d9869208043deccbc70aa0451e0dab2b8bce606249d86f395d750",
+      "destination_sha256": "4cbbaa8db72d9869208043deccbc70aa0451e0dab2b8bce606249d86f395d750",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-5.xpm",
+      "bytes": 1409,
+      "source_sha256": "3a755e68938d0f1e80c2d8667aeba36b230b435d364124cba9b1453e1b4c6f8a",
+      "destination_sha256": "3a755e68938d0f1e80c2d8667aeba36b230b435d364124cba9b1453e1b4c6f8a",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-6.png",
+      "bytes": 253,
+      "source_sha256": "fadbbaa52919d631cc3e4383c1d2fd160fc2fa978b78ccd3d8bb05cc559b7893",
+      "destination_sha256": "fadbbaa52919d631cc3e4383c1d2fd160fc2fa978b78ccd3d8bb05cc559b7893",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-6.xpm",
+      "bytes": 1409,
+      "source_sha256": "385bf39cf6781324777971e31eaa2e69b26e0bc5716752fea0731dac40cda94f",
+      "destination_sha256": "385bf39cf6781324777971e31eaa2e69b26e0bc5716752fea0731dac40cda94f",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-7.png",
+      "bytes": 292,
+      "source_sha256": "fc988f8ed5804091de35a78d8d81dc0c4b89ff774b1cff9ef56eed25b56aa942",
+      "destination_sha256": "fc988f8ed5804091de35a78d8d81dc0c4b89ff774b1cff9ef56eed25b56aa942",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj2-7.xpm",
+      "bytes": 1409,
+      "source_sha256": "fa07cf468fbf5ea2f5f003765867ca8e2099a700e0eb8d13e0311bb20ce17c90",
+      "destination_sha256": "fa07cf468fbf5ea2f5f003765867ca8e2099a700e0eb8d13e0311bb20ce17c90",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-0.png",
+      "bytes": 344,
+      "source_sha256": "e1a19b9d84b3cc24d600c571a6210231f3597c8dba47f322b4e54fe998668e6a",
+      "destination_sha256": "e1a19b9d84b3cc24d600c571a6210231f3597c8dba47f322b4e54fe998668e6a",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-0.xpm",
+      "bytes": 2731,
+      "source_sha256": "54ddc84a731bf771ed08ba4d5ae88de9ee6ab4d68ab9079b6124a483bf8c5900",
+      "destination_sha256": "54ddc84a731bf771ed08ba4d5ae88de9ee6ab4d68ab9079b6124a483bf8c5900",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-1.png",
+      "bytes": 396,
+      "source_sha256": "320579db600eba3cd0cb08ef4a14cb9a3aa096dddbab1da76b757a28fe8be0f6",
+      "destination_sha256": "320579db600eba3cd0cb08ef4a14cb9a3aa096dddbab1da76b757a28fe8be0f6",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-1.xpm",
+      "bytes": 2731,
+      "source_sha256": "74f702d49dc07cf004576d30b54fa1ed59989313fedf45569244234a7ec2f941",
+      "destination_sha256": "74f702d49dc07cf004576d30b54fa1ed59989313fedf45569244234a7ec2f941",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-10.png",
+      "bytes": 265,
+      "source_sha256": "5c5da944f3d6daec586f569bef2d22b3f8294e588c2dd6d393d725cdfff9c816",
+      "destination_sha256": "5c5da944f3d6daec586f569bef2d22b3f8294e588c2dd6d393d725cdfff9c816",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-10.xpm",
+      "bytes": 2690,
+      "source_sha256": "ec8a5aa2edec3b81bf4ff62423c0344ab0a56127424c937bbe088caf3f28301c",
+      "destination_sha256": "ec8a5aa2edec3b81bf4ff62423c0344ab0a56127424c937bbe088caf3f28301c",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-2.png",
+      "bytes": 310,
+      "source_sha256": "7d548168a32de94afd137bc47ba84dd8e4798e3e31497497abf30762532f0ed8",
+      "destination_sha256": "7d548168a32de94afd137bc47ba84dd8e4798e3e31497497abf30762532f0ed8",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-2.xpm",
+      "bytes": 2731,
+      "source_sha256": "d29b72013c61c56e74400d3c767441a2ce8bb878d4f9fd033b15af030685b3fb",
+      "destination_sha256": "d29b72013c61c56e74400d3c767441a2ce8bb878d4f9fd033b15af030685b3fb",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-3.png",
+      "bytes": 387,
+      "source_sha256": "319c562d86d652f2563ab537f0b5caf35940467b18b12a971b1d546a70eefbd5",
+      "destination_sha256": "319c562d86d652f2563ab537f0b5caf35940467b18b12a971b1d546a70eefbd5",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-3.xpm",
+      "bytes": 2731,
+      "source_sha256": "dec6dfcb696f70c1d9618b31a029e517af8a3a2e7b1ced7d4f662fb59f73cb66",
+      "destination_sha256": "dec6dfcb696f70c1d9618b31a029e517af8a3a2e7b1ced7d4f662fb59f73cb66",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-4.png",
+      "bytes": 348,
+      "source_sha256": "6b87687d2714a03479c654bcd30ecad54ce4d0d83612f7a141595ba4755542c3",
+      "destination_sha256": "6b87687d2714a03479c654bcd30ecad54ce4d0d83612f7a141595ba4755542c3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-4.xpm",
+      "bytes": 2731,
+      "source_sha256": "73da486aad09aaeb41b8f320296205b75d26e35ecf5a8f48a2f77934ca84f1e5",
+      "destination_sha256": "73da486aad09aaeb41b8f320296205b75d26e35ecf5a8f48a2f77934ca84f1e5",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-5.png",
+      "bytes": 380,
+      "source_sha256": "89051ab4dc43a6ecd17211a4c32309e851251ca9bf205de24fa267c2665ddae1",
+      "destination_sha256": "89051ab4dc43a6ecd17211a4c32309e851251ca9bf205de24fa267c2665ddae1",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-5.xpm",
+      "bytes": 2731,
+      "source_sha256": "1185ca53ed164dd4de65779f89474568638169f89304698be8cecb8c3b454383",
+      "destination_sha256": "1185ca53ed164dd4de65779f89474568638169f89304698be8cecb8c3b454383",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-6.png",
+      "bytes": 311,
+      "source_sha256": "f00215cd44978b1e254fc0c2657995434c63973a80fb704a020bfd44e57e9aeb",
+      "destination_sha256": "f00215cd44978b1e254fc0c2657995434c63973a80fb704a020bfd44e57e9aeb",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-6.xpm",
+      "bytes": 2731,
+      "source_sha256": "58557bddfba7af70e8df486a584d1b2b6501b5e27cbbb8367bc48aec30db6645",
+      "destination_sha256": "58557bddfba7af70e8df486a584d1b2b6501b5e27cbbb8367bc48aec30db6645",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-7.png",
+      "bytes": 396,
+      "source_sha256": "1dcc20e8fac63fe88eeb2e626f2cd9e406df219a72afca3941621cf2cfdc8ae3",
+      "destination_sha256": "1dcc20e8fac63fe88eeb2e626f2cd9e406df219a72afca3941621cf2cfdc8ae3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-7.xpm",
+      "bytes": 2731,
+      "source_sha256": "3cb81a0a5fcdb54c4ee2ba15aec5754da325d6c1f6ead6c874031db2f4c29116",
+      "destination_sha256": "3cb81a0a5fcdb54c4ee2ba15aec5754da325d6c1f6ead6c874031db2f4c29116",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-8.png",
+      "bytes": 310,
+      "source_sha256": "5c627106f9a5b16d98317eed4d22a38fee654612c045b4f51a29e1b79a55931e",
+      "destination_sha256": "5c627106f9a5b16d98317eed4d22a38fee654612c045b4f51a29e1b79a55931e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-8.xpm",
+      "bytes": 2731,
+      "source_sha256": "ff0b51d5eb981bb6c80dc7110a426a08f62a9fc98dcb8e5da87c8d44d99a269e",
+      "destination_sha256": "ff0b51d5eb981bb6c80dc7110a426a08f62a9fc98dcb8e5da87c8d44d99a269e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-9.png",
+      "bytes": 306,
+      "source_sha256": "630c7212b1c9f1bb2945226bdc142591932e0a6b790d6852823a3a507c44a7c9",
+      "destination_sha256": "630c7212b1c9f1bb2945226bdc142591932e0a6b790d6852823a3a507c44a7c9",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj3-9.xpm",
+      "bytes": 2731,
+      "source_sha256": "e500f106600f78ebd4cae1f2e2f088dbfdc9669f46a26827b00f5cef81e776f0",
+      "destination_sha256": "e500f106600f78ebd4cae1f2e2f088dbfdc9669f46a26827b00f5cef81e776f0",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-0.png",
+      "bytes": 410,
+      "source_sha256": "8ef8da522269e233d321438159f698f07b2c0380b504e1dc0579aa88f9d6b4da",
+      "destination_sha256": "8ef8da522269e233d321438159f698f07b2c0380b504e1dc0579aa88f9d6b4da",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-0.xpm",
+      "bytes": 2753,
+      "source_sha256": "a9f20308844e05be74de93d2cddc9edab557140ff84ea905c82f4d7e79dc963f",
+      "destination_sha256": "a9f20308844e05be74de93d2cddc9edab557140ff84ea905c82f4d7e79dc963f",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-1.png",
+      "bytes": 412,
+      "source_sha256": "94ed146e6ff1c819a3a523d2d557ef5f5ebd155089da187a1f561a33dcac1657",
+      "destination_sha256": "94ed146e6ff1c819a3a523d2d557ef5f5ebd155089da187a1f561a33dcac1657",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-1.xpm",
+      "bytes": 2753,
+      "source_sha256": "8d554badf5054f1a2327c2b025d0de2075108cb5f387400e9b1658a323e43a5d",
+      "destination_sha256": "8d554badf5054f1a2327c2b025d0de2075108cb5f387400e9b1658a323e43a5d",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-2.png",
+      "bytes": 341,
+      "source_sha256": "a54e966df2ef2184549c470d6ff751af993ac26ec4e18b4c33097615cff08b7e",
+      "destination_sha256": "a54e966df2ef2184549c470d6ff751af993ac26ec4e18b4c33097615cff08b7e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-2.xpm",
+      "bytes": 2753,
+      "source_sha256": "5742efd0a88e248d1c2ff02177de5512d6e7a73db759edcc0b7ad454ea503992",
+      "destination_sha256": "5742efd0a88e248d1c2ff02177de5512d6e7a73db759edcc0b7ad454ea503992",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-3.png",
+      "bytes": 410,
+      "source_sha256": "1cab13fbbee55dc2c4b7f9e6a8950a87aa9fc040acc89d92bbc894f1ebadb07a",
+      "destination_sha256": "1cab13fbbee55dc2c4b7f9e6a8950a87aa9fc040acc89d92bbc894f1ebadb07a",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-3.xpm",
+      "bytes": 2753,
+      "source_sha256": "39f61c981221946206530f6a8ed4e6e5da27a6d5fcc95ef28466899e972394a1",
+      "destination_sha256": "39f61c981221946206530f6a8ed4e6e5da27a6d5fcc95ef28466899e972394a1",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-4.png",
+      "bytes": 417,
+      "source_sha256": "441f14c284341565a58dff46bf2fbfd45826f678d1d2e4fabdf05ec87de3fc34",
+      "destination_sha256": "441f14c284341565a58dff46bf2fbfd45826f678d1d2e4fabdf05ec87de3fc34",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-4.xpm",
+      "bytes": 2753,
+      "source_sha256": "6f10e97bcbc109e16b8fb6a3692a5a1c1fc1203eb23ea76f1fbf9c426e57b351",
+      "destination_sha256": "6f10e97bcbc109e16b8fb6a3692a5a1c1fc1203eb23ea76f1fbf9c426e57b351",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-5.png",
+      "bytes": 414,
+      "source_sha256": "93a835abb56a58b2ffd28cc9d2469a623e5ea67e6a40063881a5680600922a1b",
+      "destination_sha256": "93a835abb56a58b2ffd28cc9d2469a623e5ea67e6a40063881a5680600922a1b",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-5.xpm",
+      "bytes": 2753,
+      "source_sha256": "1317796b9ea49aafd9f256146553f1860c4f587e77f8bd79a34dd7d5a8a3d1af",
+      "destination_sha256": "1317796b9ea49aafd9f256146553f1860c4f587e77f8bd79a34dd7d5a8a3d1af",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-6.png",
+      "bytes": 332,
+      "source_sha256": "35dfebfb6580f95ad27e54408de603672d4adc79e75eec48557ac562f1d6481f",
+      "destination_sha256": "35dfebfb6580f95ad27e54408de603672d4adc79e75eec48557ac562f1d6481f",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-6.xpm",
+      "bytes": 2753,
+      "source_sha256": "6752df0cb4ab146a55ea97a13da42327ee008fa6342a6f05f4387115f68fc5ef",
+      "destination_sha256": "6752df0cb4ab146a55ea97a13da42327ee008fa6342a6f05f4387115f68fc5ef",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-7.png",
+      "bytes": 406,
+      "source_sha256": "a264d07c4c23cec16ca8aa2526feec2b62256c6d387f799e7c0772f4f41199bd",
+      "destination_sha256": "a264d07c4c23cec16ca8aa2526feec2b62256c6d387f799e7c0772f4f41199bd",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj4-7.xpm",
+      "bytes": 2753,
+      "source_sha256": "77306e8c070cbff3cc374c7422a661211b5388825a5d1c61ba020e604f08a7e3",
+      "destination_sha256": "77306e8c070cbff3cc374c7422a661211b5388825a5d1c61ba020e604f08a7e3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-0.png",
+      "bytes": 366,
+      "source_sha256": "b706cdeaa81c65d968f4b50a86315f8d77983d3a7a76de4df63fe77004866ea4",
+      "destination_sha256": "b706cdeaa81c65d968f4b50a86315f8d77983d3a7a76de4df63fe77004866ea4",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-0.xpm",
+      "bytes": 2668,
+      "source_sha256": "980afa55e6d25f6f31830d356c36cdd61822a3062d9a4758bf5f432c490c2bc4",
+      "destination_sha256": "980afa55e6d25f6f31830d356c36cdd61822a3062d9a4758bf5f432c490c2bc4",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-1.png",
+      "bytes": 315,
+      "source_sha256": "0a2a36885b6957280767bf5e38fedaa80c7b9fdc42be6b2bdb160c9e13ecb717",
+      "destination_sha256": "0a2a36885b6957280767bf5e38fedaa80c7b9fdc42be6b2bdb160c9e13ecb717",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-1.xpm",
+      "bytes": 2668,
+      "source_sha256": "b465f22499806014c4f44af4745c9cd40bf5f413b95af57bacaec541543bc11f",
+      "destination_sha256": "b465f22499806014c4f44af4745c9cd40bf5f413b95af57bacaec541543bc11f",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-10.png",
+      "bytes": 336,
+      "source_sha256": "9fc9fff5cd7328f412862700030b5a0c4d5935e5bca3ace447919442a8d9dc66",
+      "destination_sha256": "9fc9fff5cd7328f412862700030b5a0c4d5935e5bca3ace447919442a8d9dc66",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-10.xpm",
+      "bytes": 2669,
+      "source_sha256": "f9ec910981ea9671e91d2d47f454034537eb963cef9f1b55c43fc98bea0a77df",
+      "destination_sha256": "f9ec910981ea9671e91d2d47f454034537eb963cef9f1b55c43fc98bea0a77df",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-11.png",
+      "bytes": 379,
+      "source_sha256": "60e8a1dcc0129cb0cc97924ed8ced5b12a70ef722b257652b941e5c2d8425352",
+      "destination_sha256": "60e8a1dcc0129cb0cc97924ed8ced5b12a70ef722b257652b941e5c2d8425352",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-11.xpm",
+      "bytes": 2669,
+      "source_sha256": "c96de8bc6030a746c1977922c5b716efccc93fab558e8a74eb8de2e6bf5b51a0",
+      "destination_sha256": "c96de8bc6030a746c1977922c5b716efccc93fab558e8a74eb8de2e6bf5b51a0",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-12.png",
+      "bytes": 339,
+      "source_sha256": "616a73b973d63e45c8a4f2f4b05a65fdd6b590876b1b72a7901416221bcb1155",
+      "destination_sha256": "616a73b973d63e45c8a4f2f4b05a65fdd6b590876b1b72a7901416221bcb1155",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-12.xpm",
+      "bytes": 2669,
+      "source_sha256": "1a402d0cd6efb63ff2e9db2d86206bac874bf3c5a3857d6cf6542a0fc56703fb",
+      "destination_sha256": "1a402d0cd6efb63ff2e9db2d86206bac874bf3c5a3857d6cf6542a0fc56703fb",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-13.png",
+      "bytes": 334,
+      "source_sha256": "2f4ac5a2680b85829c475664b726c7a6c76d3edf1094eeb9dfaca7cb6f494040",
+      "destination_sha256": "2f4ac5a2680b85829c475664b726c7a6c76d3edf1094eeb9dfaca7cb6f494040",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-13.xpm",
+      "bytes": 2669,
+      "source_sha256": "2eb423303f714afec953a718f71d87680d1e813e3fcf9af6f5dde7e72e090a18",
+      "destination_sha256": "2eb423303f714afec953a718f71d87680d1e813e3fcf9af6f5dde7e72e090a18",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-14.png",
+      "bytes": 341,
+      "source_sha256": "c9c30b56d3bd8007d28f5d9d6f212c7348071f273e8ca1495ee59bea45711667",
+      "destination_sha256": "c9c30b56d3bd8007d28f5d9d6f212c7348071f273e8ca1495ee59bea45711667",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-14.xpm",
+      "bytes": 2648,
+      "source_sha256": "7a82aecbf05dae80b27b19191606d81376616666ad5e90c8475f52d40ae5a798",
+      "destination_sha256": "7a82aecbf05dae80b27b19191606d81376616666ad5e90c8475f52d40ae5a798",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-15.png",
+      "bytes": 327,
+      "source_sha256": "5c266bc19694d349f7324e9ee4dcc24bd29b888a46da9b4abcb0ead604c322ad",
+      "destination_sha256": "5c266bc19694d349f7324e9ee4dcc24bd29b888a46da9b4abcb0ead604c322ad",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-15.xpm",
+      "bytes": 2648,
+      "source_sha256": "0590dc50cffda849f723e75d5f4f3070e33dcab3662635b1bb2c951e59a0e09d",
+      "destination_sha256": "0590dc50cffda849f723e75d5f4f3070e33dcab3662635b1bb2c951e59a0e09d",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-2.png",
+      "bytes": 328,
+      "source_sha256": "d4065f6be5fe2008daddc0d7cf3c2f92649d4d1b59305ac3e862ba5bc57ef77f",
+      "destination_sha256": "d4065f6be5fe2008daddc0d7cf3c2f92649d4d1b59305ac3e862ba5bc57ef77f",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-2.xpm",
+      "bytes": 2668,
+      "source_sha256": "4b3fd64e103e6071541502bcd4572bdeca54d0c19e1216d443bfdc0b5dca525d",
+      "destination_sha256": "4b3fd64e103e6071541502bcd4572bdeca54d0c19e1216d443bfdc0b5dca525d",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-3.png",
+      "bytes": 376,
+      "source_sha256": "e416aace22462d239fc81896c0763e053da374bc5e78a537cb2f67756d276ff1",
+      "destination_sha256": "e416aace22462d239fc81896c0763e053da374bc5e78a537cb2f67756d276ff1",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-3.xpm",
+      "bytes": 2668,
+      "source_sha256": "300c7471e99d708106ff10d496f06695b3c1c69b0ffb348551ab98a35f57e1cf",
+      "destination_sha256": "300c7471e99d708106ff10d496f06695b3c1c69b0ffb348551ab98a35f57e1cf",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-4.png",
+      "bytes": 330,
+      "source_sha256": "4f4b10e1ca5ea265b42db8eb8cc67760cc1903bdcbfcd1f1426b9d701668a419",
+      "destination_sha256": "4f4b10e1ca5ea265b42db8eb8cc67760cc1903bdcbfcd1f1426b9d701668a419",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-4.xpm",
+      "bytes": 2668,
+      "source_sha256": "c6a2000db8de851c0bb8c42b1b7922426de5b9ff16c241ced1a4133db46c8447",
+      "destination_sha256": "c6a2000db8de851c0bb8c42b1b7922426de5b9ff16c241ced1a4133db46c8447",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-5.png",
+      "bytes": 341,
+      "source_sha256": "da97bd00933c82f3931441739d439296318b32df03d1064699057a87d5c88f61",
+      "destination_sha256": "da97bd00933c82f3931441739d439296318b32df03d1064699057a87d5c88f61",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-5.xpm",
+      "bytes": 2668,
+      "source_sha256": "d73763cb6d65511e457650a28ab94087f5b412e8b8fb5218fb06c136f7182a93",
+      "destination_sha256": "d73763cb6d65511e457650a28ab94087f5b412e8b8fb5218fb06c136f7182a93",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-6.png",
+      "bytes": 350,
+      "source_sha256": "b68e57f0941911b064219d268efd5252412e2a102e9700039c90846bd5b3fbca",
+      "destination_sha256": "b68e57f0941911b064219d268efd5252412e2a102e9700039c90846bd5b3fbca",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-6.xpm",
+      "bytes": 2668,
+      "source_sha256": "2a02970acaf444fd900176d9ab553b3418072572b087c10c92a1dd7de0b69aa3",
+      "destination_sha256": "2a02970acaf444fd900176d9ab553b3418072572b087c10c92a1dd7de0b69aa3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-7.png",
+      "bytes": 347,
+      "source_sha256": "3775b56030779154cb8aebe25f3e720aa44838aa1d1cc7dbdad57ddc5010c18f",
+      "destination_sha256": "3775b56030779154cb8aebe25f3e720aa44838aa1d1cc7dbdad57ddc5010c18f",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-7.xpm",
+      "bytes": 2668,
+      "source_sha256": "0f80ef7c855384c09c61e6b1b420f91c61c1e3c430d6c73400be36b1a226c401",
+      "destination_sha256": "0f80ef7c855384c09c61e6b1b420f91c61c1e3c430d6c73400be36b1a226c401",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-8.png",
+      "bytes": 356,
+      "source_sha256": "5929ac9e02703e6b18d7e1dfc8d1d54bcb8c24865577411dc19d453b4dd3fa38",
+      "destination_sha256": "5929ac9e02703e6b18d7e1dfc8d1d54bcb8c24865577411dc19d453b4dd3fa38",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-8.xpm",
+      "bytes": 2668,
+      "source_sha256": "5785c2d726221d0012dc30cc6f8feba54657b15d57cc38fb8e7d51ad09a70660",
+      "destination_sha256": "5785c2d726221d0012dc30cc6f8feba54657b15d57cc38fb8e7d51ad09a70660",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-9.png",
+      "bytes": 359,
+      "source_sha256": "b873c0a8fe3484e227d690b94e32b036c43700bd03e88fede7fb2bf174458386",
+      "destination_sha256": "b873c0a8fe3484e227d690b94e32b036c43700bd03e88fede7fb2bf174458386",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj5-9.xpm",
+      "bytes": 2668,
+      "source_sha256": "6243ebcdbd830746d158d6bf8a068db35010fa1643baebc908ed6231f7ee532a",
+      "destination_sha256": "6243ebcdbd830746d158d6bf8a068db35010fa1643baebc908ed6231f7ee532a",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj6-0.png",
+      "bytes": 433,
+      "source_sha256": "ad4d513180d74533c07c1fb675ffb667b5892c463ba2ec6b2d4468255f850e45",
+      "destination_sha256": "ad4d513180d74533c07c1fb675ffb667b5892c463ba2ec6b2d4468255f850e45",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj6-0.xpm",
+      "bytes": 2647,
+      "source_sha256": "2af55d30962257ce612e4e70573a98000ec9d40e19ea0963a7f7bf59b6eaa72c",
+      "destination_sha256": "2af55d30962257ce612e4e70573a98000ec9d40e19ea0963a7f7bf59b6eaa72c",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj6-1.png",
+      "bytes": 429,
+      "source_sha256": "f94ddbb77be0c6e48cb15556640a3b036b084a931ade8a8209f487d23ec8bafa",
+      "destination_sha256": "f94ddbb77be0c6e48cb15556640a3b036b084a931ade8a8209f487d23ec8bafa",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj6-1.xpm",
+      "bytes": 2647,
+      "source_sha256": "09fe1f966a4c6f31c2cbc06345059fa82ea7a0320426fdb57c314a7f7c1febe3",
+      "destination_sha256": "09fe1f966a4c6f31c2cbc06345059fa82ea7a0320426fdb57c314a7f7c1febe3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj6-2.png",
+      "bytes": 430,
+      "source_sha256": "6c03d85d2f216ddde541644253bdbda742593db73ea8021dc04e936f0e28d4bc",
+      "destination_sha256": "6c03d85d2f216ddde541644253bdbda742593db73ea8021dc04e936f0e28d4bc",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj6-2.xpm",
+      "bytes": 2647,
+      "source_sha256": "7cbba11d81ee8b2a9aa77ad44321251e90758082a07d5c82ad3372f22c02eedb",
+      "destination_sha256": "7cbba11d81ee8b2a9aa77ad44321251e90758082a07d5c82ad3372f22c02eedb",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-0.png",
+      "bytes": 166,
+      "source_sha256": "8f8efed8f2b2bca7c40dd6b26efb539b490696e68a50474d11f0d45bb3bd7531",
+      "destination_sha256": "8f8efed8f2b2bca7c40dd6b26efb539b490696e68a50474d11f0d45bb3bd7531",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-0.xpm",
+      "bytes": 2605,
+      "source_sha256": "d1479bab1e3bba283862122bf191617947984c3cee3125e4963f29d3ffa8f786",
+      "destination_sha256": "d1479bab1e3bba283862122bf191617947984c3cee3125e4963f29d3ffa8f786",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-1.png",
+      "bytes": 284,
+      "source_sha256": "5349b41f3bf19ac1a0667f52551fdef73de108788039cb3a450e56967223cd48",
+      "destination_sha256": "5349b41f3bf19ac1a0667f52551fdef73de108788039cb3a450e56967223cd48",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-1.xpm",
+      "bytes": 2626,
+      "source_sha256": "a862705bbd7d545c8933d5404a1f90b68c45cf1b9250b21b83f45c5e9fc6dee8",
+      "destination_sha256": "a862705bbd7d545c8933d5404a1f90b68c45cf1b9250b21b83f45c5e9fc6dee8",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-2.png",
+      "bytes": 476,
+      "source_sha256": "73c2fca80a83df3fe0d2ad511563cd46183349554777471f18a363828f23bae0",
+      "destination_sha256": "73c2fca80a83df3fe0d2ad511563cd46183349554777471f18a363828f23bae0",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-2.xpm",
+      "bytes": 2626,
+      "source_sha256": "df4b547861eebc427fdba3cc1b46193c509a26df32f2e675a5ea1b5a5f551f97",
+      "destination_sha256": "df4b547861eebc427fdba3cc1b46193c509a26df32f2e675a5ea1b5a5f551f97",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-3.png",
+      "bytes": 593,
+      "source_sha256": "6cfe33d477da9db80762f646f48a1997bb40f023c06c39862b3820d998242663",
+      "destination_sha256": "6cfe33d477da9db80762f646f48a1997bb40f023c06c39862b3820d998242663",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-3.xpm",
+      "bytes": 2626,
+      "source_sha256": "b550b221307758e3d0db524b402aa01040ffd52e5563d84e05da8aecd94d6adc",
+      "destination_sha256": "b550b221307758e3d0db524b402aa01040ffd52e5563d84e05da8aecd94d6adc",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-4.png",
+      "bytes": 649,
+      "source_sha256": "1dca9a0459a5155c796e9bd42549ef1c29c44eea8c2fe0a412e00b84317b4839",
+      "destination_sha256": "1dca9a0459a5155c796e9bd42549ef1c29c44eea8c2fe0a412e00b84317b4839",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-4.xpm",
+      "bytes": 2647,
+      "source_sha256": "b67718ab39defaee85195ac27e63d8a599bcce5451e05b5c8231a68f9202014a",
+      "destination_sha256": "b67718ab39defaee85195ac27e63d8a599bcce5451e05b5c8231a68f9202014a",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-5.png",
+      "bytes": 301,
+      "source_sha256": "1e7d628a760ea4e732585eef9aaefa28730f4694875975eaee4f5c487a76f16b",
+      "destination_sha256": "1e7d628a760ea4e732585eef9aaefa28730f4694875975eaee4f5c487a76f16b",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/obj7-5.xpm",
+      "bytes": 2647,
+      "source_sha256": "2c61d04ee638cbfcf524963b4a9d5de7f391a1f08c97e76f4358c169fd9fb052",
+      "destination_sha256": "2c61d04ee638cbfcf524963b4a9d5de7f391a1f08c97e76f4358c169fd9fb052",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/provenance.json",
+      "bytes": 27517,
+      "source_sha256": "9857afb9c5e85842fc6fa456cb96041f11ed8daaec397f1869e2339aedc8dd5e",
+      "destination_sha256": "9857afb9c5e85842fc6fa456cb96041f11ed8daaec397f1869e2339aedc8dd5e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/Gameplay/siren.wav",
+      "bytes": 103232,
+      "source_sha256": "256cd8ca121f1ff68feec87d8e631835cc98334b3f47826dbbb71d346aae6078",
+      "destination_sha256": "256cd8ca121f1ff68feec87d8e631835cc98334b3f47826dbbb71d346aae6078",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/UPSTREAM-COPYING.txt",
+      "bytes": 35147,
+      "source_sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "destination_sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/UPSTREAM-README.txt",
+      "bytes": 6085,
+      "source_sha256": "1d2b942bf5f657b85c07385f90049fa5caf3345cdeed2d49e59ce34dc8625d39",
+      "destination_sha256": "1d2b942bf5f657b85c07385f90049fa5caf3345cdeed2d49e59ce34dc8625d39",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/provenance.json",
+      "bytes": 1840,
+      "source_sha256": "d6f5fb402121a12bda5ebf07879ae7f3fc9237ccc637d1b7b035f915f1642b7b",
+      "destination_sha256": "d6f5fb402121a12bda5ebf07879ae7f3fc9237ccc637d1b7b035f915f1642b7b",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/tiles.png",
+      "bytes": 50842,
+      "source_sha256": "ce6a7824c6ee11afc10349c3b2df721c8e4606ecc6f3ee15186f5b8db4b0c8c7",
+      "destination_sha256": "ce6a7824c6ee11afc10349c3b2df721c8e4606ecc6f3ee15186f5b8db4b0c8c7",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Resources/OriginalGraphics/tiles.xpm",
+      "bytes": 308512,
+      "source_sha256": "5a2432b42112aa1e904c736e362f75bc902e8c60adf69f4c965995f869ef6cbb",
+      "destination_sha256": "5a2432b42112aa1e904c736e362f75bc902e8c60adf69f4c965995f869ef6cbb",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Services/CityFiles.swift",
+      "bytes": 7472,
+      "source_sha256": "2fcb914144c648c1fbfdf42c48976f7532bae519e89b5b3e20557326c24db7c3",
+      "destination_sha256": "2fcb914144c648c1fbfdf42c48976f7532bae519e89b5b3e20557326c24db7c3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Services/CityWindowBridge.swift",
+      "bytes": 5352,
+      "source_sha256": "f2962a7c88e7e75ff3d20a1e7bba891f2ec54235993b1e22eb24183f61baf952",
+      "destination_sha256": "f2962a7c88e7e75ff3d20a1e7bba891f2ec54235993b1e22eb24183f61baf952",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Services/EngineSession.swift",
+      "bytes": 17952,
+      "source_sha256": "ede4ff78a3011a8e77c10639f3e2ed3a7465c6c1631d9e8a93b12e3096f818f8",
+      "destination_sha256": "ede4ff78a3011a8e77c10639f3e2ed3a7465c6c1631d9e8a93b12e3096f818f8",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Tests/EngineIntegration.swift",
+      "bytes": 20709,
+      "source_sha256": "02a9b826ee2eaa0a0f0ec3d77ac4838d62b12967c337cba1761648120ccd1b50",
+      "destination_sha256": "02a9b826ee2eaa0a0f0ec3d77ac4838d62b12967c337cba1761648120ccd1b50",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Tests/GraphicsIntegration.swift",
+      "bytes": 17605,
+      "source_sha256": "6a9c0aeb532f52293759535ccf9ee16d28bda9264b36581e3e8f03df6f32ace3",
+      "destination_sha256": "6a9c0aeb532f52293759535ccf9ee16d28bda9264b36581e3e8f03df6f32ace3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Tests/JavaSaveCompatibility.java",
+      "bytes": 1314,
+      "source_sha256": "ee012c61ea2fb9e3d9458be9b98568123fb4fa58a46da57bfee9fbd5d9eef3af",
+      "destination_sha256": "ee012c61ea2fb9e3d9458be9b98568123fb4fa58a46da57bfee9fbd5d9eef3af",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Tests/MicropolisJ-v2-source-hashes.json",
+      "bytes": 5622,
+      "source_sha256": "3c506bbe6e3cff7e0914728ed9b720debdd86a94cb5b947fc32cf358d8a43f7e",
+      "destination_sha256": "3c506bbe6e3cff7e0914728ed9b720debdd86a94cb5b947fc32cf358d8a43f7e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Tests/SandboxSaveProbe.swift",
+      "bytes": 3010,
+      "source_sha256": "84545f898b4a77315a177294848a10f94945f75bb1f7b82c3e755866cec703e2",
+      "destination_sha256": "84545f898b4a77315a177294848a10f94945f75bb1f7b82c3e755866cec703e2",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Tests/SidebarLayout.swift",
+      "bytes": 3877,
+      "source_sha256": "a5a6ba66dd1ef67aa746e17b03b548e525fe2df735fa9171729d1952b0f02247",
+      "destination_sha256": "a5a6ba66dd1ef67aa746e17b03b548e525fe2df735fa9171729d1952b0f02247",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Tests/WindowLifecycle.swift",
+      "bytes": 3709,
+      "source_sha256": "9aedae010f7d5f3a284241134ed9c1178b7d48465144ac6d5e1c5fc7bc4d319b",
+      "destination_sha256": "9aedae010f7d5f3a284241134ed9c1178b7d48465144ac6d5e1c5fc7bc4d319b",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Views/AppearanceSettings.swift",
+      "bytes": 1046,
+      "source_sha256": "e5a7697eae4fe87f91022f1732bdf12a6b362bacda32c16f3200192b0717c7e4",
+      "destination_sha256": "e5a7697eae4fe87f91022f1732bdf12a6b362bacda32c16f3200192b0717c7e4",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Views/CityMapView.swift",
+      "bytes": 7601,
+      "source_sha256": "1e987e016baadfec37d0378005f599d41589bf145634ea1733d3007a8b2315ad",
+      "destination_sha256": "1e987e016baadfec37d0378005f599d41589bf145634ea1733d3007a8b2315ad",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Views/CityPanels.swift",
+      "bytes": 16924,
+      "source_sha256": "9ccdea03b9048bcccbf59fbe2c5126545924ba707964f1eb0d253d815cb4f46e",
+      "destination_sha256": "9ccdea03b9048bcccbf59fbe2c5126545924ba707964f1eb0d253d815cb4f46e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Views/CitySidebar.swift",
+      "bytes": 3062,
+      "source_sha256": "fb5c63ccf98d83c6ad0b509bd74d00a987ffe2d49b82f336ca54642d0067880b",
+      "destination_sha256": "fb5c63ccf98d83c6ad0b509bd74d00a987ffe2d49b82f336ca54642d0067880b",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Views/CityStatusBar.swift",
+      "bytes": 2811,
+      "source_sha256": "263ff2dd47e83e74cb8a25fe68e01ad865c6ff9cb51b386724cd55fc28a5a2ce",
+      "destination_sha256": "263ff2dd47e83e74cb8a25fe68e01ad865c6ff9cb51b386724cd55fc28a5a2ce",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Views/ContentView.swift",
+      "bytes": 8202,
+      "source_sha256": "db9a6dbd9ab5c648022f17ba04d59e428ef77be6cfe12b53cc3ba1267611c732",
+      "destination_sha256": "db9a6dbd9ab5c648022f17ba04d59e428ef77be6cfe12b53cc3ba1267611c732",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/Views/LicenseView.swift",
+      "bytes": 3219,
+      "source_sha256": "7c746b3c9385ac76a57983d7054914ba8b37e215a342b28eca8d7745b49eaca6",
+      "destination_sha256": "7c746b3c9385ac76a57983d7054914ba8b37e215a342b28eca8d7745b49eaca6",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/script/build_and_run.sh",
+      "bytes": 1094,
+      "source_sha256": "994da90f32bc0474f5fefd2e05b28067ecb0bd53c66d6236805a8ebd9aadb0e5",
+      "destination_sha256": "994da90f32bc0474f5fefd2e05b28067ecb0bd53c66d6236805a8ebd9aadb0e5",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/script/prepare_gameplay_assets.py",
+      "bytes": 2419,
+      "source_sha256": "411c67c2f8cbd166dc2faa9780fc676b96287b88af2e2ed0ad4c8c2275c415a0",
+      "destination_sha256": "411c67c2f8cbd166dc2faa9780fc676b96287b88af2e2ed0ad4c8c2275c415a0",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/script/prepare_original_graphics.py",
+      "bytes": 4115,
+      "source_sha256": "ead2ccf74fa167a2213dc46fc6095c9d38cb025fcd139dff2375912f1e7c685e",
+      "destination_sha256": "ead2ccf74fa167a2213dc46fc6095c9d38cb025fcd139dff2375912f1e7c685e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/script/verify_engine.sh",
+      "bytes": 1191,
+      "source_sha256": "55e8ea75eea2b46484ca53bff255046285748e1fc7bdb4240f6cb2914574178e",
+      "destination_sha256": "55e8ea75eea2b46484ca53bff255046285748e1fc7bdb4240f6cb2914574178e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/script/verify_graphics.sh",
+      "bytes": 1107,
+      "source_sha256": "319c451d7d7c19689c415c7a71061e68c41a59c0e6139b981ab711d902bb3f51",
+      "destination_sha256": "319c451d7d7c19689c415c7a71061e68c41a59c0e6139b981ab711d902bb3f51",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/script/verify_java_compatibility.sh",
+      "bytes": 1868,
+      "source_sha256": "d1867245565ec0176cefc5775bd809db75dc7e92cc0fed1cdf11f45409368766",
+      "destination_sha256": "d1867245565ec0176cefc5775bd809db75dc7e92cc0fed1cdf11f45409368766",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/script/verify_sandbox_save.sh",
+      "bytes": 2072,
+      "source_sha256": "4cd53181b8f98c6b0eff9554b06a1f29880b1900f9ab1c369102230bd1f067f9",
+      "destination_sha256": "4cd53181b8f98c6b0eff9554b06a1f29880b1900f9ab1c369102230bd1f067f9",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/script/verify_sidebar.sh",
+      "bytes": 780,
+      "source_sha256": "f193b7a16588b2f90ad4ede82357aeedb132ee916e113f5bbd3bf8a131ff31f3",
+      "destination_sha256": "f193b7a16588b2f90ad4ede82357aeedb132ee916e113f5bbd3bf8a131ff31f3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "apps/micropolis-macos/script/verify_window_lifecycle.sh",
+      "bytes": 1030,
+      "source_sha256": "3cc24082fcb62ad81396017e72ad55340b74780b457cfeeaae3b038ede634683",
+      "destination_sha256": "3cc24082fcb62ad81396017e72ad55340b74780b457cfeeaae3b038ede634683",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "content/micropolis/cities/haight.cty",
+      "bytes": 27120,
+      "source_sha256": "510fcdbd90d1ab86f3d266b6cbdcd7529d89deb972fe51feac2f876d75ef4cca",
+      "destination_sha256": "510fcdbd90d1ab86f3d266b6cbdcd7529d89deb972fe51feac2f876d75ef4cca",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "content/micropolis/cities/scenario_bern.cty",
+      "bytes": 27120,
+      "source_sha256": "c0d66e25c6c16fdb8117f26480f78dc183c72d36dc80c598e37fff1d12d42a87",
+      "destination_sha256": "c0d66e25c6c16fdb8117f26480f78dc183c72d36dc80c598e37fff1d12d42a87",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "content/micropolis/cities/scenario_boston.cty",
+      "bytes": 27120,
+      "source_sha256": "aea17edc47a5892fb51c7ca4ea1450521a65396e70393c5082ae206d0829b25e",
+      "destination_sha256": "aea17edc47a5892fb51c7ca4ea1450521a65396e70393c5082ae206d0829b25e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "content/micropolis/cities/scenario_detroit.cty",
+      "bytes": 27120,
+      "source_sha256": "849a287169a727d2636955121ea385ae7e4fa2fb7ec1a1f990d96c0e096a11ee",
+      "destination_sha256": "849a287169a727d2636955121ea385ae7e4fa2fb7ec1a1f990d96c0e096a11ee",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "content/micropolis/cities/scenario_dullsville.cty",
+      "bytes": 27120,
+      "source_sha256": "b3b85b64f11c35df27bc9f24c43e3d0da0ea789b5602dc85ffaae32dce90a526",
+      "destination_sha256": "b3b85b64f11c35df27bc9f24c43e3d0da0ea789b5602dc85ffaae32dce90a526",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "content/micropolis/cities/scenario_hamburg.cty",
+      "bytes": 27120,
+      "source_sha256": "88bbba917b585e27f8f8b7ed383e5116f6d38153f1c7482fe7d4c47d93bce589",
+      "destination_sha256": "88bbba917b585e27f8f8b7ed383e5116f6d38153f1c7482fe7d4c47d93bce589",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "content/micropolis/cities/scenario_rio_de_janeiro.cty",
+      "bytes": 27120,
+      "source_sha256": "6f32994326f0bf8f87cd0d97b1495eb9fd82f8f866fabc334b5f7e82ad449af0",
+      "destination_sha256": "6f32994326f0bf8f87cd0d97b1495eb9fd82f8f866fabc334b5f7e82ad449af0",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "content/micropolis/cities/scenario_san_francisco.cty",
+      "bytes": 27120,
+      "source_sha256": "928d2ac8578dab018fbd3fc7073af0b9c3903a4dca5821fa3f23391d1fe371eb",
+      "destination_sha256": "928d2ac8578dab018fbd3fc7073af0b9c3903a4dca5821fa3f23391d1fe371eb",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "content/micropolis/cities/scenario_tokyo.cty",
+      "bytes": 27120,
+      "source_sha256": "bc8200782dd90051d505abad86978f01b121243b47146576c702a179645e0e46",
+      "destination_sha256": "bc8200782dd90051d505abad86978f01b121243b47146576c702a179645e0e46",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "documentation/notes/engine/native-macos-gameplay.ja.md",
+      "bytes": 16607,
+      "source_sha256": "f388e04bc6f41fa2f56c376388d64edb999dfc4258055076ad953a13d963fc8b",
+      "destination_sha256": "f388e04bc6f41fa2f56c376388d64edb999dfc4258055076ad953a13d963fc8b",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "documentation/notes/engine/native-macos-implementation.ja.md",
+      "bytes": 16211,
+      "source_sha256": "eb94acb0e7cd4b9a18adfcd6d7671f955e053d5a0b7326c08a9da30a58faac4e",
+      "destination_sha256": "eb94acb0e7cd4b9a18adfcd6d7671f955e053d5a0b7326c08a9da30a58faac4e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "documentation/notes/engine/native-macos-investigation.ja.md",
+      "bytes": 28630,
+      "source_sha256": "bfba0e7cb58507df8e949a854216e41974d1c43a3cae38e80b5cc31ca577d788",
+      "destination_sha256": "bfba0e7cb58507df8e949a854216e41974d1c43a3cae38e80b5cc31ca577d788",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "documentation/notes/engine/native-macos-micropolisj-parity.ja.md",
+      "bytes": 24122,
+      "source_sha256": "d9430726d680d9a4270a7480779fed06d589e538da81562e9e4afa6cbd379b36",
+      "destination_sha256": "d9430726d680d9a4270a7480779fed06d589e538da81562e9e4afa6cbd379b36",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "documentation/notes/engine/native-macos-micropolisj-source.ja.md",
+      "bytes": 2913,
+      "source_sha256": "6e1a9481c7b72391450ad91e49683a5068cb30476b572dceaba102956513c5f9",
+      "destination_sha256": "6e1a9481c7b72391450ad91e49683a5068cb30476b572dceaba102956513c5f9",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "documentation/notes/engine/native-macos-original-graphics.ja.md",
+      "bytes": 15068,
+      "source_sha256": "978482a4b12f48267e45d92eb00453c31baa043de84d99ff93745af0ba8d242b",
+      "destination_sha256": "978482a4b12f48267e45d92eb00453c31baa043de84d99ff93745af0ba8d242b",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "documentation/notes/engine/native-macos-swiftui.ja.md",
+      "bytes": 9258,
+      "source_sha256": "999afcb45059b63d923cafe80fa1c559b2a254a3e0e56f7756f6acd065189bd3",
+      "destination_sha256": "999afcb45059b63d923cafe80fa1c559b2a254a3e0e56f7756f6acd065189bd3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "gpl-3.0.txt",
+      "bytes": 35149,
+      "source_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "destination_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/Package.swift",
+      "bytes": 2051,
+      "source_sha256": "35529f25d18ff93e71a0fce47252800a7e1babbf543c73f49281bbdd0dd5da6a",
+      "destination_sha256": "404f9d594b997f3ca10cad54f255366d1e96202098fdfb70bb9f0d5ec505c1e7",
+      "change_reason": "Removed exclude entries for Web-only and monorepo files that are not migrated; explicit native sources and targets unchanged."
+    },
+    {
+      "path": "packages/micropolis-engine/README.native.md",
+      "bytes": 14618,
+      "source_sha256": "9db6b2b5cad41f3da9653468dfcdd3264dddadd03ae081ee6ccf62ba5d9352b8",
+      "destination_sha256": "9db6b2b5cad41f3da9653468dfcdd3264dddadd03ae081ee6ccf62ba5d9352b8",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/examples/swift/main.swift",
+      "bytes": 2267,
+      "source_sha256": "f98ede0d0449c9c4c1a80bf68a9d2c7111d0f93609ce4299774620438e8f4b69",
+      "destination_sha256": "f98ede0d0449c9c4c1a80bf68a9d2c7111d0f93609ce4299774620438e8f4b69",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/native.mk",
+      "bytes": 3067,
+      "source_sha256": "8bb63f859491c2a673276a79736bb146a85ff552f3c539e9dc8828aa9f9f9f02",
+      "destination_sha256": "8bb63f859491c2a673276a79736bb146a85ff552f3c539e9dc8828aa9f9f9f02",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/native/api.cpp",
+      "bytes": 24503,
+      "source_sha256": "4581b6b85b3268b45bf556355eacb43d43133bc405cea9e87997ab0141e659fb",
+      "destination_sha256": "4581b6b85b3268b45bf556355eacb43d43133bc405cea9e87997ab0141e659fb",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/native/callback.cpp",
+      "bytes": 4325,
+      "source_sha256": "82c5ade7b5cf03f96f50f838e39dbbcae7fb4d018e281c953dd04276e51f89f3",
+      "destination_sha256": "82c5ade7b5cf03f96f50f838e39dbbcae7fb4d018e281c953dd04276e51f89f3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/native/include/micropolis_native.h",
+      "bytes": 9538,
+      "source_sha256": "de534e93ffc468158855447e10e1db0f5bccf5b1270970e1c72f4166abbb05d3",
+      "destination_sha256": "de534e93ffc468158855447e10e1db0f5bccf5b1270970e1c72f4166abbb05d3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/allocate.cpp",
+      "bytes": 6394,
+      "source_sha256": "d5951a24716489e57f3d86fc34bb053e1985edaca66c39857ce17c1a759c07ee",
+      "destination_sha256": "d5951a24716489e57f3d86fc34bb053e1985edaca66c39857ce17c1a759c07ee",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/animate.cpp",
+      "bytes": 12303,
+      "source_sha256": "8bbd7716462e42e096d4d3bbbf7101c17c9012d39daa4bace5690f1318a15f22",
+      "destination_sha256": "8bbd7716462e42e096d4d3bbbf7101c17c9012d39daa4bace5690f1318a15f22",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/budget.cpp",
+      "bytes": 10694,
+      "source_sha256": "97c19e75e1c41d4080e00364dd87d2a90c6e9a99f559e9ef4e6cf4c869135846",
+      "destination_sha256": "97c19e75e1c41d4080e00364dd87d2a90c6e9a99f559e9ef4e6cf4c869135846",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/callback.h",
+      "bytes": 12011,
+      "source_sha256": "7e009f562a479f5d6e94355a6b23829c6051c259ee8614af98c924e7698559b3",
+      "destination_sha256": "7e009f562a479f5d6e94355a6b23829c6051c259ee8614af98c924e7698559b3",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/connect.cpp",
+      "bytes": 23286,
+      "source_sha256": "1e8fca4f13db3635a33330d6049620c43f27e6f5640e4250dbf1e91345efcf82",
+      "destination_sha256": "1e8fca4f13db3635a33330d6049620c43f27e6f5640e4250dbf1e91345efcf82",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/data_types.h",
+      "bytes": 4019,
+      "source_sha256": "3746990f8e4bc41913e1e3e810b48229bca7ce58721d9556b7f7bd731506f0d8",
+      "destination_sha256": "3746990f8e4bc41913e1e3e810b48229bca7ce58721d9556b7f7bd731506f0d8",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/disasters.cpp",
+      "bytes": 12141,
+      "source_sha256": "9da04eae86bb0eb2e59a25df2ed430edc68672e884cfe654e5bb2ec87013acb2",
+      "destination_sha256": "9da04eae86bb0eb2e59a25df2ed430edc68672e884cfe654e5bb2ec87013acb2",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/evaluate.cpp",
+      "bytes": 16699,
+      "source_sha256": "6e90deee504d782afef7aa8da2a9a125638d77655104047d6523bab7cf38631b",
+      "destination_sha256": "6e90deee504d782afef7aa8da2a9a125638d77655104047d6523bab7cf38631b",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/fileio.cpp",
+      "bytes": 18312,
+      "source_sha256": "778f7405c1b3122109edb2adeafab235cd9083785264bc66eefbc4704524b525",
+      "destination_sha256": "778f7405c1b3122109edb2adeafab235cd9083785264bc66eefbc4704524b525",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/frontendmessage.cpp",
+      "bytes": 5280,
+      "source_sha256": "0db22b51f05ace3e276110c1ac8086561665e23c404fa945acf06b6bb66067de",
+      "destination_sha256": "0db22b51f05ace3e276110c1ac8086561665e23c404fa945acf06b6bb66067de",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/frontendmessage.h",
+      "bytes": 5119,
+      "source_sha256": "02d3f938bdff582c1de42b1e27e542895667e603cda3645a760e4e6a23aee703",
+      "destination_sha256": "02d3f938bdff582c1de42b1e27e542895667e603cda3645a760e4e6a23aee703",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/generate.cpp",
+      "bytes": 21501,
+      "source_sha256": "54ff5d09d5425b57c5693aa3eeb362a4c9131b1a8293f03c493e64f79783bce0",
+      "destination_sha256": "54ff5d09d5425b57c5693aa3eeb362a4c9131b1a8293f03c493e64f79783bce0",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/graph.cpp",
+      "bytes": 11797,
+      "source_sha256": "537edd27f178f94bd6fd734f84ad19d57a9d78a9910a963e377a009e3ed115c7",
+      "destination_sha256": "537edd27f178f94bd6fd734f84ad19d57a9d78a9910a963e377a009e3ed115c7",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/initialize.cpp",
+      "bytes": 5324,
+      "source_sha256": "a3ec78e661d71e02f57ab2e10534e2ee890721cfaa3a84f050c3c2bac9cf1a32",
+      "destination_sha256": "a3ec78e661d71e02f57ab2e10534e2ee890721cfaa3a84f050c3c2bac9cf1a32",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/map.cpp",
+      "bytes": 28349,
+      "source_sha256": "8e3ed68de68ad412f95814ca9e6469b20a04f0ded9e8f4c3d5bf23a136116255",
+      "destination_sha256": "8e3ed68de68ad412f95814ca9e6469b20a04f0ded9e8f4c3d5bf23a136116255",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/map_type.h",
+      "bytes": 11075,
+      "source_sha256": "41753a3f4e23b55bc39bc2bb22f1ae163dde8915805f6f78dbf2e38c585f3012",
+      "destination_sha256": "41753a3f4e23b55bc39bc2bb22f1ae163dde8915805f6f78dbf2e38c585f3012",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/message.cpp",
+      "bytes": 14098,
+      "source_sha256": "b38a7644c6174382bd0c47c06d454b2ebd14fb82d4647d31a914fbd45dd284f5",
+      "destination_sha256": "b38a7644c6174382bd0c47c06d454b2ebd14fb82d4647d31a914fbd45dd284f5",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/micropolis.cpp",
+      "bytes": 39731,
+      "source_sha256": "2ec097c567fe55babc923ace0f8cc49a92a0b841cb13970d27332e0b77a24b04",
+      "destination_sha256": "2ec097c567fe55babc923ace0f8cc49a92a0b841cb13970d27332e0b77a24b04",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/micropolis.h",
+      "bytes": 66749,
+      "source_sha256": "b8756f38d41a3b3c278631aac1a39b1b090e68bbd34e8bf1d7064d5d268b30ad",
+      "destination_sha256": "b8756f38d41a3b3c278631aac1a39b1b090e68bbd34e8bf1d7064d5d268b30ad",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/position.cpp",
+      "bytes": 7422,
+      "source_sha256": "9069257cad32ef993b32900c37685c864c191aad7cbe36e03e8cf9becebd4424",
+      "destination_sha256": "9069257cad32ef993b32900c37685c864c191aad7cbe36e03e8cf9becebd4424",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/position.h",
+      "bytes": 6983,
+      "source_sha256": "e01a4f961c9f40bf251a92d6af79f157d4e0e567fc7ea4c52d6a5f711c602fa6",
+      "destination_sha256": "e01a4f961c9f40bf251a92d6af79f157d4e0e567fc7ea4c52d6a5f711c602fa6",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/power.cpp",
+      "bytes": 7128,
+      "source_sha256": "775e2c799958d83c6a660029f5a4bee63f0709146b6e89d3a107246601092e50",
+      "destination_sha256": "775e2c799958d83c6a660029f5a4bee63f0709146b6e89d3a107246601092e50",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/random.cpp",
+      "bytes": 6273,
+      "source_sha256": "5c0d17e1a553681363de78a66b6dc98fc36618f5e08566cf87991de8e322cce7",
+      "destination_sha256": "5c0d17e1a553681363de78a66b6dc98fc36618f5e08566cf87991de8e322cce7",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/scan.cpp",
+      "bytes": 18223,
+      "source_sha256": "d842f983de24f436b42f039adf801c44167bf06667f7e7b83ad8e96aa3fbfe2e",
+      "destination_sha256": "d842f983de24f436b42f039adf801c44167bf06667f7e7b83ad8e96aa3fbfe2e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/simulate.cpp",
+      "bytes": 46559,
+      "source_sha256": "089d68ee5ec72038b99973ca7d59fb8566a36dc92ec34699c447e861520b08aa",
+      "destination_sha256": "089d68ee5ec72038b99973ca7d59fb8566a36dc92ec34699c447e861520b08aa",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/sprite.cpp",
+      "bytes": 50858,
+      "source_sha256": "770b5678b37a470020d4642421308a67ca67a933743ac919663b180adf3d34f4",
+      "destination_sha256": "770b5678b37a470020d4642421308a67ca67a933743ac919663b180adf3d34f4",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/text.h",
+      "bytes": 8658,
+      "source_sha256": "65cc0edcd7d6ccbf2452427c660d557c6f41ea40d8a2dfaa9c56bd1be1fbb2a4",
+      "destination_sha256": "65cc0edcd7d6ccbf2452427c660d557c6f41ea40d8a2dfaa9c56bd1be1fbb2a4",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/tool.cpp",
+      "bytes": 47263,
+      "source_sha256": "7f93853ccd0b59ed1bd03ac75233cac6a4c81916d1db89b62d4c835e34c170cd",
+      "destination_sha256": "7f93853ccd0b59ed1bd03ac75233cac6a4c81916d1db89b62d4c835e34c170cd",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/tool.h",
+      "bytes": 11211,
+      "source_sha256": "11bfa327b9db1b79ffc84faa6b5c2f263a4dcc89783beadaa7b71967e44b8c16",
+      "destination_sha256": "11bfa327b9db1b79ffc84faa6b5c2f263a4dcc89783beadaa7b71967e44b8c16",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/traffic.cpp",
+      "bytes": 15666,
+      "source_sha256": "c40678962ceed95f7bc066a6634e359bf830ccf5f1026f3f3646192b9077d3a8",
+      "destination_sha256": "c40678962ceed95f7bc066a6634e359bf830ccf5f1026f3f3646192b9077d3a8",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/update.cpp",
+      "bytes": 7709,
+      "source_sha256": "2c8f8a4683daa6a9deb635de427e54aca48e0b04528f0405133b34f53cf04388",
+      "destination_sha256": "2c8f8a4683daa6a9deb635de427e54aca48e0b04528f0405133b34f53cf04388",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/utilities.cpp",
+      "bytes": 11439,
+      "source_sha256": "2a96385b3cb65dbe8324d0305f7f87c4040426244caf8e7ea25a8f989652549c",
+      "destination_sha256": "2a96385b3cb65dbe8324d0305f7f87c4040426244caf8e7ea25a8f989652549c",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/src/zone.cpp",
+      "bytes": 27097,
+      "source_sha256": "76b634a693e54f84b528471b8d0cb97d5a6e27faa2344e1a61b6145a53f09b27",
+      "destination_sha256": "76b634a693e54f84b528471b8d0cb97d5a6e27faa2344e1a61b6145a53f09b27",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/tests/native/animation_test.cpp",
+      "bytes": 2499,
+      "source_sha256": "85edf8834ea1b069e2438e821a90643d1847faac18233149276d7559e20497d4",
+      "destination_sha256": "85edf8834ea1b069e2438e821a90643d1847faac18233149276d7559e20497d4",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/tests/native/api_test.c",
+      "bytes": 6274,
+      "source_sha256": "470e732b4d7491032ebef5d311be8837cd5ed349c1627d190d2e6e2ee824345e",
+      "destination_sha256": "470e732b4d7491032ebef5d311be8837cd5ed349c1627d190d2e6e2ee824345e",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/tests/native/core_test.cpp",
+      "bytes": 9330,
+      "source_sha256": "80afe24f6acc8d8a8f9ea38ab7150a8facfec2c6967850a73b4212794cd14db6",
+      "destination_sha256": "80afe24f6acc8d8a8f9ea38ab7150a8facfec2c6967850a73b4212794cd14db6",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/tests/native/gameplay_test.c",
+      "bytes": 3963,
+      "source_sha256": "363255cbecef06e1e10941436fa5a5cd9381fc93c3eb790666ad871a9c912812",
+      "destination_sha256": "363255cbecef06e1e10941436fa5a5cd9381fc93c3eb790666ad871a9c912812",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/tests/native/java_save_probe.c",
+      "bytes": 1528,
+      "source_sha256": "c607dc71f47333ff1692543c52c2d624d39c711a3700aeea71cedbaa09c7d8e6",
+      "destination_sha256": "c607dc71f47333ff1692543c52c2d624d39c711a3700aeea71cedbaa09c7d8e6",
+      "change_reason": "Byte-identical copy"
+    },
+    {
+      "path": "packages/micropolis-engine/tests/native/parity_test.c",
+      "bytes": 8867,
+      "source_sha256": "75344f4a2aa1f675ccec77cd2d83d98ef536b631550caa338b217f1f3c58356c",
+      "destination_sha256": "75344f4a2aa1f675ccec77cd2d83d98ef536b631550caa338b217f1f3c58356c",
+      "change_reason": "Byte-identical copy"
+    }
+  ],
+  "added_files": [
+    ".gitignore",
+    "README.md",
+    "documentation/migration/step2-manifest.json",
+    "documentation/migration/step2-excluded-paths.txt",
+    "documentation/migration/step2-results.ja.md"
+  ],
+  "excluded_note": "All source tracked paths not in the explicit allowlist; names only are recorded, no excluded content copied. Ignored/untracked source products and .git also excluded.",
+  "verification": {
+    "source_tracked_hashes_verified": 5359,
+    "source_git_state_unchanged": true,
+    "destination_copied_files_verified": 243,
+    "new_git_repository_initialized": false,
+    "source_status_preserved": " M apps/micropolis-macos/MicropolisMac.xcodeproj/project.pbxproj\n",
+    "non_build_generated_or_added_files": [
+      ".gitignore",
+      "README.md",
+      "documentation/migration/step2-manifest.json",
+      "documentation/migration/step2-excluded-paths.txt",
+      "documentation/migration/step2-results.ja.md"
+    ]
+  },
+  "added_file_hashes": {
+    ".gitignore": "3ce84aae8b459f1c3f24b21aa9f9250e1105607541c80240c8254b93684265d8",
+    "README.md": "bde4ae976436dd342e2cf88ef5045fd4852780972e452a513114d8fc14fed647",
+    "documentation/migration/step2-excluded-paths.txt": "54a9bd08e861e856ee61aae8d6ae3cd02a32d939fe95861a55ddb37af50653d2",
+    "documentation/migration/step2-results.ja.md": "5348e43edc69aea074ef53294cd50aa4c15bc2b2b685b92c96adf7ecd585572b"
+  }
+}
