@@ -30,6 +30,7 @@
 		E9E95A31C0787A3CF6C6F25F /* Views/CitySidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A4CCEBAADA1240A66171C /* Views/CitySidebar.swift */; };
 		EA6B228D3A19372208428B13 /* Services/CityFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0E54B08F6DB22D3B85D8B /* Services/CityFiles.swift */; };
 		F178867DA2879CAE0F60630A /* MicropolisNative in Frameworks */ = {isa = PBXBuildFile; productRef = DE58E2B17C19600779694943 /* MicropolisNative */; };
+		F489C964309E095000BB1556 /* Macropolitan_Icon.icon in Resources */ = {isa = PBXBuildFile; fileRef = F489C963309E095000BB1556 /* Macropolitan_Icon.icon */; };
 		F57C618472332387FEC49EA7 /* Resources/OriginalGraphics in Resources */ = {isa = PBXBuildFile; fileRef = 5FA52C7DA733E5F5B65F4DDB /* Resources/OriginalGraphics */; };
 		F7D62745C80E00A1CEF8A549 /* Views/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1B79D4003562DEF224B48 /* Views/ContentView.swift */; };
 /* End PBXBuildFile section */
@@ -40,7 +41,7 @@
 		1F7A4CCEBAADA1240A66171C /* Views/CitySidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/CitySidebar.swift; sourceTree = "<group>"; };
 		2D8D0C7B51B1EC8DD9A42575 /* Models/CityFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/CityFrame.swift; sourceTree = "<group>"; };
 		2FDB7AE0CA39F9E3ADEEB13A /* App/MicropolisMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/MicropolisMacApp.swift; sourceTree = "<group>"; };
-		38A007151ABE87CC01A5B6E9 /* Macropolitan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "Macropolitan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A007151ABE87CC01A5B6E9 /* Macropolitan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Macropolitan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A87D6126F4350BDA76E8286 /* Views/CityStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/CityStatusBar.swift; sourceTree = "<group>"; };
 		46AEBE05645BAE23A04F20E4 /* Views/CityPanels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/CityPanels.swift; sourceTree = "<group>"; };
 		5FA52C7DA733E5F5B65F4DDB /* Resources/OriginalGraphics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources/OriginalGraphics; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		C61EDD12021B57C403ACF2BD /* Rendering/TileAtlas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rendering/TileAtlas.swift; sourceTree = "<group>"; };
 		C7344DC2E0A7E340AA5B4203 /* Services/EngineSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/EngineSession.swift; sourceTree = "<group>"; };
 		F0046D3BB7295349AAFCDD05 /* ../../gpl-3.0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "../../gpl-3.0.txt"; sourceTree = "<group>"; };
+		F489C963309E095000BB1556 /* Macropolitan_Icon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = Macropolitan_Icon.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		EDA6D6223944636B9C5B54AA = {
 			isa = PBXGroup;
 			children = (
+				F489C963309E095000BB1556 /* Macropolitan_Icon.icon */,
 				4D820FADAFBC7A1FCACC4F07 /* Sources */,
 				3B91224C671A3400805ED16F /* Licenses */,
 				BFE00B156DCFC34C4751A6E5 /* Products */,
@@ -188,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F489C964309E095000BB1556 /* Macropolitan_Icon.icon in Resources */,
 				9A48BCDE219E5204848DD51E /* Resources/Localization in Resources */,
 				F57C618472332387FEC49EA7 /* Resources/OriginalGraphics in Resources */,
 				484A619E8F7E1ECCCCEF22F5 /* ../../gpl-3.0.txt in Resources */,
@@ -231,6 +235,7 @@
 		639A7CA24D39909E713B47F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Macropolitan_Icon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = App/MicropolisMac.entitlements;
 				CODE_SIGN_IDENTITY = "-";
@@ -242,8 +247,8 @@
 				EXECUTABLE_NAME = MicropolisMac;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Macropolitan";
-				INFOPLIST_KEY_CFBundleName = "Macropolitan";
+				INFOPLIST_KEY_CFBundleDisplayName = Macropolitan;
+				INFOPLIST_KEY_CFBundleName = Macropolitan;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.simulation-games";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (C) 1989–2007 Electronic Arts Inc. (engine). Modified version 2026-10-25, GPL-3.0-or-later with EA additional terms.";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -252,8 +257,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.micropolis.native.macos;
-				PRODUCT_NAME = "Macropolitan";
 				PRODUCT_MODULE_NAME = Micropolis_for_macOS;
+				PRODUCT_NAME = Macropolitan;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 6.0;
 			};
@@ -262,6 +267,7 @@
 		7082CC0B6FC1282FCEABD07A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Macropolitan_Icon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = App/MicropolisMac.entitlements;
 				CODE_SIGN_IDENTITY = "-";
@@ -273,8 +279,8 @@
 				EXECUTABLE_NAME = MicropolisMac;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Macropolitan";
-				INFOPLIST_KEY_CFBundleName = "Macropolitan";
+				INFOPLIST_KEY_CFBundleDisplayName = Macropolitan;
+				INFOPLIST_KEY_CFBundleName = Macropolitan;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.simulation-games";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (C) 1989–2007 Electronic Arts Inc. (engine). Modified version 2026-10-25, GPL-3.0-or-later with EA additional terms.";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -283,8 +289,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.micropolis.native.macos;
-				PRODUCT_NAME = "Macropolitan";
 				PRODUCT_MODULE_NAME = Micropolis_for_macOS;
+				PRODUCT_NAME = Macropolitan;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 6.0;
 			};
