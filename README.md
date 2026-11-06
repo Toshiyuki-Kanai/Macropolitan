@@ -15,7 +15,25 @@ Electronic Arts、元プロジェクト、Micropolis商標権者による公式�
 - 開発環境：macOS 27 SDKとSwift 6に対応するXcode。本工程の検証環境はXcode 27.2 / Swift 6.4.2です。
 - 公開予定先：[Toshiyuki-Kanai/Macropolitan](https://github.com/Toshiyuki-Kanai/Macropolitan) の **GitHub Releasesのみ**。現在はPrivateで開発中で、Releaseやダウンロード用DMGはまだ提供していません。
 - 独自Webサイト、Mac App Store、Steamでの公開は現時点では予定していません。
-- 新しいアプリアイコンは未登録です。旧アイコンは含みません。配布用署名・公証・DMG作成は別工程です。
+- 新アイコン `Macropolitan_Icon.icon` は登録済みで、Finder／Dockでの正常表示をユーザーが確認しています。旧アイコンは含みません。[制作経緯・権利情報](apps/micropolis-macos/APP_ICON_NOTICE.md)を参照してください。
+
+## 配布候補とインストール
+
+現在の配布候補は **Macropolitan 1.0 (Build 1)**、`Macropolitan-1.0-arm64.dmg` です。アプリとDMGはDeveloper ID Application署名済み、Apple公証Accepted、公証チケット添付済みで、Gatekeeper評価もAcceptedです。Apple公証は、アプリの機能・品質・安全性の保証やAppleによる推奨を意味しません。
+
+- ビルド基準Commit（開発者申告）：`c4122c5a9be8df5a00138f7a08066a430536bd8a`
+- 配布候補DMGのSHA-256：`9e868c657dc41c5ac7f9c54e3c5a151d8b4943ec5c26dcf05f7f9f8e8aa3b80c`
+
+このハッシュは完成済み配布候補を実物で照合した値です。Archive作成時の作業ツリーがCleanだったことは独立には立証できておらず、Commitとバイナリの完全な対応や完全な再現ビルドを実証したという意味ではありません。DMGを再作成した場合はハッシュを再計算してください。この文書更新では配布候補を再ビルド・変更していません。
+
+**以下は公開後のインストール手順です。現在はPrivateリポジトリで、公開Releaseは未作成のため、一般向けにはまだダウンロードできません。** macOS 27.0以降のApple Silicon Macを使用してください。
+
+1. 公開後、[GitHub Releases](https://github.com/Toshiyuki-Kanai/Macropolitan/releases)から `Macropolitan-1.0-arm64.dmg` をダウンロードします。
+2. DMGを開きます。
+3. `Macropolitan.app` を `Applications` フォルダへドラッグします。
+4. `Applications` フォルダからMacropolitanを起動します。
+
+Mac App Storeからの配布ではありません。Gatekeeperの保護を無効化する手順は案内しません。
 
 ## 主な機能
 
@@ -48,7 +66,7 @@ xcodebuild -project apps/micropolis-macos/MicropolisMac.xcodeproj \
 
 既存のビルド・起動スクリプトは `bash apps/micropolis-macos/script/build_and_run.sh` です。スクリプトの出力先は `build/micropolis-macos/` です。Target／Scheme／内部実行ファイル名はMicropolisMac、Swiftモジュール名はMicropolis_for_macOSを維持しています。
 
-共有設定は個人Teamを含まないローカルad-hoc署名です。App Sandboxと既存のファイルアクセス権限を維持します。Releaseビルド成功は、配布用Developer ID署名・Apple公証の完了を意味しません。
+共有Xcodeプロジェクトの既定値は、個人Teamを含まないローカルad-hoc署名です。配布候補に適用したDeveloper ID署名とは別であり、共有Release設定を恒久的に変更したものではありません。App Sandboxと既存のファイルアクセス権限を維持します。上記の通常ビルドに成功しただけでは、配布用署名・公証が完了したことにはなりません。
 
 ## 回帰テスト
 
@@ -78,9 +96,9 @@ MACOSX_DEPLOYMENT_TARGET=27.0 bash apps/micropolis-macos/script/verify_sandbox_s
 
 Micropolis is a registered trademark of Micropolis Corporation (Micropolis GmbH) and is licensed here as a courtesy of the owner under the Micropolis Public Name License. <https://www.micropolis.com>
 
-製品名Macropolitanと原エンジン名Micropolisは区別します。名称ライセンスはコードのGPLとは別であり、表示は個別の許諾取得や公開承認の主張ではありません。公開前のライセンス・配布条件の最終確認は別工程です。
+製品名Macropolitanと原エンジン名Micropolisは区別します。名称ライセンスはコードのGPLとは別であり、表示は個別の許諾取得や公開承認の主張ではありません。公開前のライセンス・配布条件の最終確認は別工程です。新アイコン一式には、開発者が適法にライセンスを付与できる権利の範囲でGPL-3.0-or-laterを適用します。[制作経緯・権利情報](apps/micropolis-macos/APP_ICON_NOTICE.md)を参照してください。
 
-バイナリ配布時は、**同じCommit**の対応ソースを同じGitHub Releaseから取得できる構成とし、Tag・完全なCommit ID・Version／Build・ビルド環境・SHA-256を記録する方針です。対応ソースにはSwiftアプリ、C++ Core／C API、設定、必要な素材原本、変換・ビルドスクリプト、ライセンス文書を含めます。署名用秘密鍵・認証情報は含めません。現時点ではReleaseや配布用Tag・DMGを作成していません。
+バイナリ配布時は、**同じCommit**の対応ソースを同じGitHub Releaseから取得できる構成とし、Tag・完全なCommit ID・Version／Build・ビルド環境・SHA-256を記録する方針です。対応ソースにはSwiftアプリ、C++ Core／C API、設定、必要な素材原本、変換・ビルドスクリプト、ライセンス文書を含めます。署名用秘密鍵・認証情報は含めません。現在の配布候補DMGは作成・検証済みですが、公開Release・公開用Tag・ソースアーカイブは未作成です。文書更新後のmainと配布候補のビルド基準Commitを混同せず、公開時には配布バイナリに対応するソースを取得可能にします。
 
 ## 開発・移行記録
 
