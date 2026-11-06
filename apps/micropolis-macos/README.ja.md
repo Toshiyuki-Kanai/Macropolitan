@@ -1,26 +1,23 @@
-# Micropolis for macOS
+# Macropolitan
 
-A native macOS adaptation of the classic Micropolis city-building simulation,
-built with SwiftUI and the original C++ engine.
+City-Building Simulation for macOS.
+A native macOS city-building game built with SwiftUI / AppKit and the Micropolis C++ Core.
 
-非公式のmacOSネイティブ移植版です。Electronic Arts、元プロジェクト、Micropolis商標権者による公式リリースや推奨製品ではありません。既存MicropolisCore C++エンジンをローカルSwift Package経由で利用し、Java版MicropolisJ v2.0.0をゲーム機能の参考にしています。WebView・Electron・WebAssemblyは使用しません。
+**Macropolitan（マクロポリタン）** は、既存のMicropolis C++ CoreをローカルSwift Package経由で利用する、非公式のmacOSネイティブ都市経営シミュレーションです。Electronic Arts、元プロジェクト、Micropolis商標権者による公式リリースや推奨製品ではありません。Java版MicropolisJ v2.0.0をゲーム機能の参考にしています。WebView・Electron・WebAssemblyは使用しません。
 
 - 対応環境：Apple Silicon **arm64**、**macOS 27.0以降**。Intel Macには対応しません。
-- 暫定バージョン：**Version 1.0 (Build 1)**。Aboutでは実際のInfo.plistの値を表示します。
-- ソースコード・ビルド手順：[Toshiyuki-Kanai/micropolis-native-macos](https://github.com/Toshiyuki-Kanai/micropolis-native-macos)。リポジトリ名は変更しません。
+- バージョン：**Version 1.0 (Build 1)**。Aboutでは実際のInfo.plistの値を表示します。
+- ソースコード・ビルド手順：[Toshiyuki-Kanai/Macropolitan](https://github.com/Toshiyuki-Kanai/Macropolitan)。現在はPrivateで開発中です。
 - 元エンジン：[SimHacker/MicropolisCore](https://github.com/SimHacker/MicropolisCore)。元のコード・素材の権利表示を維持する変更版です。
+- 概要・開発環境・配布方針：[ルートREADME](../../README.md)。
 
-## 公開準備とインストール
+## 配布予定とアイコン
 
-現在は公開準備中です。Developer ID署名・Apple公証・配布DMGの作成、および名称使用条件（GitHub Releasesでの使用を含む）の最終確認は未完了です。正式公開が承認済み、または配布物が公証済みであるとは扱いません。アイコンはユーザーがCanvaで制作し、Xcodeへ手動登録しています。素材の権利確認は未完了です。
+公開先はGitHub Releasesのみを予定しています。現時点でRelease／ダウンロード用DMGは提供していません。この独立リポジトリの成果物について、配布用Developer ID署名・Apple公証が完了済みであるとは扱いません。独自Webサイト、Mac App Store、Steamでの公開は現時点では予定していません。
 
-公開時の予定ファイルは `Micropolis for macOS.app` と `Micropolis-for-macOS-arm64.dmg` です。正式公開後は本リポジトリのGitHub Releasesから対象バージョンのDMGを取得し、DMGを開いてアプリをApplicationsへコピーして起動する手順を案内します。現在は署名・公証済みDMGの提供を保証しません。Gatekeeperの保護を無効化する手順は案内しません。
+生成するアプリは `Macropolitan.app` です。公開時の導入方法は最終的な配布物に合わせて案内します。Gatekeeperを無効化する手順は案内しません。
 
-## アプリアイコン
-
-ユーザーがCanvaで制作したPNG（1024×1024）を使用し、`Micropolis.icon/Assets/Micropolis.png`とIcon Composer形式の`Micropolis.icon/icon.json`を対応ソースに含めます。XcodeのMicropolisMacターゲットにResourcesとして登録し、Debug／ReleaseともApp Icon名を`Micropolis`に設定しています。登録済みの正本はアプリディレクトリ直下の`Micropolis.icon`です。
-
-これは制作・登録状況の記録です。Canva上で使用した各素材の出典、適用ライセンス、アイコン用途での利用、PNG原本をソースとして再配布できる条件の最終確認は未完了です。GPL公開版ゲーム素材の許諾を、この新しいアイコンに自動的に適用するものではありません。今回のGitHubソース反映を、名称・素材の確認完了やDMG公開の承認とは扱いません。
+旧Canvaアイコンは移行対象から除外済みで、新しいアイコンは未登録です。現在はmacOSの標準表示を使用します。旧アイコン、新しい画像、ダミー素材は本工程で追加しません。
 
 ## ソースからのビルド
 
@@ -40,7 +37,7 @@ xcodebuild -project apps/micropolis-macos/MicropolisMac.xcodeproj \
   -derivedDataPath build/micropolis-macos build
 ```
 
-出力はそれぞれ `build/micropolis-macos/Build/Products/Debug/Micropolis for macOS.app` と `build/micropolis-macos/Build/Products/Release/Micropolis for macOS.app` です。空白を含むパスをシェルで使う場合は引用符で囲んでください。Releaseのビルド成功とDeveloper ID署名・公証の完了は別です。App Sandboxと既存のファイルアクセス権限は維持します。
+出力はそれぞれ `build/micropolis-macos/Build/Products/Debug/Macropolitan.app` と `build/micropolis-macos/Build/Products/Release/Macropolitan.app` です。空白を含むパスをシェルで使う場合は引用符で囲んでください。Releaseのビルド成功とDeveloper ID署名・公証の完了は別です。App Sandboxと既存のファイルアクセス権限は維持します。
 
 ## 起動と基本操作
 
@@ -158,7 +155,7 @@ MicropolisJ v2.0.0の公開機能に対応する各種マップ・履歴グラ�
 
 ## ライセンス
 
-アプリメニューの「Micropolis for macOSについて」で正式名称・Version／Build・非公式移植版の説明・ソースURL・クレジットを表示します。「ライセンスとクレジット…」でも既存の帰属表示とライセンス原文を参照できます。
+アプリメニューの「Macropolitanについて」で正式名称・Version／Build・非公式移植版の説明・ソースURL・クレジットを表示します。「ライセンスとクレジット…」でも既存の帰属表示とライセンス原文を参照できます。
 
 GPL version 3 or laterおよびEA追加条件。元のエンジンはCopyright (C) 1989–2007 Electronic Arts Inc.。リポジトリルートのGPL・EA追加条件・名称ライセンスをそのままアプリに同梱し、アプリメニューの「ライセンスとクレジット…」から参照できます。無保証。対応するソースとビルド手順は本リポジトリに含まれます。
 

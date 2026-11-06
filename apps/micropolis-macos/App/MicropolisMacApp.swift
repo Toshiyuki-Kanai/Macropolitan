@@ -8,7 +8,7 @@ import SwiftUI
     @NSApplicationDelegateAdaptor(CityAppDelegate.self) private var appDelegate
     var body: some Scene {
         // 1.0 owns one editable city per application process.
-        Window("Micropolis for macOS",id:"city") { CityWindow() }
+        Window("Macropolitan",id:"city") { CityWindow() }
             .defaultLaunchBehavior(.presented)
             .defaultSize(width:1200,height:860)
             .commands { CityCommands() }
@@ -17,7 +17,7 @@ import SwiftUI
                 .preferredColorScheme(appearance == "system" ? nil : appearance == "dark" ? .dark : .light)
         }
             .defaultSize(width:640,height:540)
-        Window(L("Micropolis for macOSについて"),id:"about") {
+        Window(L("Macropolitanについて"),id:"about") {
             LicenseView().id(language)
                 .preferredColorScheme(appearance == "system" ? nil : appearance == "dark" ? .dark : .light)
         }
@@ -113,9 +113,9 @@ private struct CityCommands: Commands {
             ForEach(Disaster.allCases) { disaster in Button(disaster.title+"…") { model?.pendingDisaster=disaster }.disabled(model?.available != true) }
         }
         CommandGroup(replacing:.appInfo) {
-            Button(L("Micropolis for macOSについて")) { openWindow(id:"about") }
+            Button(L("Macropolitanについて")) { openWindow(id:"about") }
         }
         CommandGroup(after:.appInfo) { Button(L("ライセンスとクレジット…")) { openWindow(id:"licenses") } }
-        CommandGroup(replacing:.help) { Button(L("Micropolisの遊び方")) { model?.panel = .guide }.disabled(model == nil) }
+        CommandGroup(replacing:.help) { Button(L("Macropolitanの遊び方")) { model?.panel = .guide }.disabled(model == nil) }
     }
 }

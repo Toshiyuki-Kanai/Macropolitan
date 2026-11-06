@@ -63,7 +63,7 @@ struct CityWindowBridge: NSViewRepresentable {
     func updateNSView(_ view: HostView, context: Context) {
         guard let window=view.window else { return }
         context.coordinator.attach(window)
-        window.title="\(model.title) — Micropolis for macOS"
+        window.title="\(model.title) — Macropolitan"
         window.isDocumentEdited=model.dirty
         window.representedURL=model.fileURL
     }
